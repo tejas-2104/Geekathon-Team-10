@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* NAVBAR */
+
+navbar{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: #fefefe;
+    align-items: center;
+}
+.sounds-logo{
+    margin-left: 50px;
+    font-size:35px;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 700;
+    color:rgb(250,108,13);
+} 
+.nav-items{
+    display: flex;
+    align-items: center;
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size:18px;
+    font-weight:400;
+    margin-left:20px;
+    margin-right: 20px;
+    color: rgb(121, 125, 129);
+    text-decoration: none;
+}
+.nav-items:hover {
+    color: black;
+    text-decoration: underline;
+  }
+.nav-img{
+    height:25px;
+    width:20px;
+    margin-right:5px;
+}
+
+/* MAIN */
+.main{  
+    background-image: linear-gradient(to right, rgb(34,5,4) ,rgb(58, 8, 6), rgb(198,41,0));
+    color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    padding-top:60px;
+}
+.main-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid greenyellow; */
+    width:40%;
+    margin-left: 50px;
+    margin-right:25px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.button-section{
+    display: flex;
+    align-items: center;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size:16px;
+    text-align: center;
+    font-weight:600;
+    border: none;
+    padding: 10px;
+    background-color: #0064E6;
+}
+.register{
+    color: #0064E6;
+    font-weight:600;
+    font-size:18px;
+}
+.main-2{
+    /* border: 1px solid skyblue; */
+    width: 50%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-left:30px;
+}
+.main-img{
+    margin-bottom: 0;
+    width:80%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
