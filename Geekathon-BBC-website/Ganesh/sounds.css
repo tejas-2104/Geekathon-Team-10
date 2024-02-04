@@ -13,6 +13,9 @@ html,body{
 navbar{
     display: flex;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    height:10%;
     border: 1px solid black;
     background-color: #fefefe;
     align-items: center;
@@ -45,6 +48,7 @@ navbar{
     margin-right:5px;
 }
 
+
 /* MAIN */
 .main{  
     background-image: linear-gradient(to right, rgb(34,5,4) ,rgb(58, 8, 6), rgb(198,41,0));
@@ -56,13 +60,13 @@ navbar{
 .main-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     /* border: 1px solid greenyellow; */
-    width:40%;
-    margin-left: 50px;
-    margin-right:25px;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    /* width:50; */
+    margin-left:50px;
+    /* margin-right:25px; */
+    margin-top: 100px;
+    padding-top:40px;
+    /* margin-bottom: 10px; */
 }
 .button-section{
     display: flex;
@@ -86,14 +90,274 @@ navbar{
 }
 .main-2{
     /* border: 1px solid skyblue; */
-    width: 50%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    margin-left:30px;
+    margin-left:20px;
 }
 .main-img{
     margin-bottom: 0;
-    width:80%;
+    width:75%;
+    height:100%;
+    margin-left:150px;
     background-repeat: no-repeat;
-    background-size:cover;
+    /* background-size:cover; */
 }
+
+/*Listen Live */
+.listen-live-container{
+    /* background-color: #f5982d; */
+    /* margin-top:500px; */
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.listen-live-cards{
+    /* background-color: #0064E6; */
+    display: flex;
+}
+.listen-live-card{
+    /* position:relative; */
+    width:fit-content;
+    height: fit-content;
+    /* margin-right: 15px; */
+    /* background-color: rgb(120, 245, 18); */
+}
+.listen-live-img1{
+   /* background-repeat: no-repeat;
+   background-size: cover; */
+   background-color: #f5982d;
+   position: absolute;
+   border-radius:50%;
+   padding:5px;
+   height: 180px;
+   width: 180px;
+
+}
+.listen-live-img2{
+   /* background-repeat: no-repeat;
+   background-size: cover; */
+   position: relative;
+   margin-top: 105px;
+   margin-left:150px;
+   height:60px;
+   width: 60px;
+}
+
+.ll-text{
+    /* border: 1px solid gold; */
+    position:relative;
+    margin-right:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.live-text{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-weight:500;
+    font-size:16px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.radio-text{
+    color: #141414;
+    margin-top: 10px;
+    font-size:16px;
+    font-weight: 700;
+}
+
+.sub-text{
+    font-size: medium;
+    color: #3A3C3E;
+}
+.listen-live-a{
+    text-decoration: none;
+}
+
+/* Discover */
+
+.discover-container,
+.myl-container,
+.ynfl-container {
+    /* padding: 10px; */
+    /* margin-right:40px; */
+    margin-left:60px;
+}
+
+.discover-cards,
+.myl-cards,
+.ynfl-cards {
+    display: flex;
+
+}
+
+.discover-card,
+.myl-card,
+.ynfl-card {
+    display: flex;
+    flex-direction: column;
+    margin-right:5px;
+    align-content: space-between;
+    width: 200px;
+
+}
+
+.discover-a,
+.myl-a,
+.ynfl-a {
+    margin-top: 2px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.discover-img,
+.myl-img,
+.ynfl-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height:190px;
+}
+
+.discover-a:hover,
+.myl-a:hover,
+.ynfl-a:hover,.more-episodes:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+/* Your New Favourite Listens */
+.playIcon{
+    display:none;
+}
+
+.ynfl-card:hover .playIcon{
+    height: 36px;
+    width: 33px;
+    display: block;
+}
+
+.ynfl-card:hover .play-blanck{
+    opacity:0.8;
+    color: orangered;
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    padding:70px;
+    text-align: center;
+    width: 190px;
+    height:191px;
+    background-color: rgb(8, 0, 0); 
+    display: block;   
+}
+
+
+
+
+.ynfl-name{
+font-size:16px;
+word-spacing: 1px;
+font-weight: 100;
+}
+.more-episodes{
+margin-top:60px;
+text-align-last:left;
+text-decoration: none;
+color: black;
+font-size:14px;
+font-weight: 700;
+}
+
+
+/* Categories */
+.main-categories{
+    border: 1px solid orange;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.categories-section-1{
+    border: 1px solid black;
+    display: flex;
+    margin-bottom:15px;
+}
+.cat-img{
+    border:1px solid greenyellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 190px;
+    color:white;
+    font-weight: 700;
+    font-size:20px;
+    padding-left: 5px;
+    padding-top:50px;
+    /* padding-bottom: 10px; */
+    margin-right: 15px; 
+}
+ 
+.a-cat{
+    border: 1px solid rgb(240, 12, 31);
+    display:contents;
+}
+.cat-img:hover{
+    /* display: block; */
+    text-decoration: underline;
+    color: orange;
+}
+.a-cat:hover .cate-h{
+    text-decoration: underline;
+    opacity: 0.7;
+    position: absolute;
+    background-color: black;
+    height: 105px;
+    width: 190px;
+}
+
+.img-c-1{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/240x135/p07b7c0b.jpg.webp");
+}
+.img-c-2{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/240x135/p07b7cd0.jpg.webp");
+}
+.img-c-3{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7c5x.jpg.webp");
+}
+.img-c-4{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7dn3.jpg.webp");
+}
+.img-c-5{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7drg.jpg.webp");
+}
+.img-c-6{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p080nvvg.jpg.webp");
+}
+.img-c-7{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/240x135/p07b7d5n.jpg.webp");
+}
+.img-c-8{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7bbp.jpg.webp");
+}
+.img-c-9{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7b13.jpg.webp");
+}
+.img-c-10{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7bfk.jpg.webp");
+}
+.img-c-11{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b7b68.jpg.webp");
+}
+.img-c-12{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/352x198/p07b79yx.jpg.webp");
+}
+
+
+
