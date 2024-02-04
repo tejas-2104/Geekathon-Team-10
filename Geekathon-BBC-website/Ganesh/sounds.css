@@ -432,7 +432,7 @@ footer {
 }
 
 .f-d-2 {
-    border-bottom: 1px solid rgb(126, 148, 126);
+    border-bottom: 1px solid rgb(176, 184, 176);
     color: white;
     margin-left: 70px;
     margin-right: 70px;
@@ -441,7 +441,7 @@ footer {
 .f-d-2-mini {
     background-color: black;
     color: white;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     /* margin-left:70px;
     margin-right:70px; */
     margin-top: 25px;
