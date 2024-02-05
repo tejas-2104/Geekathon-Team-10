@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: black;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar-left-items{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 4rem;
+}
+.navbar-item-logo img{
+    max-width:7rem ;
+    max-height:6rem ;
+}
+.navbar-left-sigin , .navbar-right-items{
+    display: flex;
+    align-items: center;
+    margin: 0 0.25rem;
+   
+}
+.navbar-center-items{
+    display: flex;
+    gap: 2.5rem;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-right-items{
+    width: 16rem;
+    align-items: center;
+    background-color: #221f20;
+    padding: 0.5rem  0.75rem;
+}
+.navbar-right-items:hover{
+    background-color: #3f3b3c;
+}
+.section-Top-news-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.section-Top-news-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem 0 0.25rem;
+    max-height: 3.5rem;
+}
+.section-news-heading-1{
+    color: #4a4a4a;
+}
+.section-news-heading-2{
+    color:#8c8c8c; 
+}
+.top-news-items{
+    height:300px;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    "top-news-item-image-1  top-news-item-image-2 top-news-item-image-3"
+    "top-news-item-image-1  top-news-item-image-4 top-news-item-image-5";
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr 1fr ;
+}
+.top-news-item-image-1{
+    grid-area: top-news-item-image-1;
+    background-image: url(./Images/_132544419_usshipattackshouthitargetinyemen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.top-news-item-image-2{
+    grid-area: top-news-item-image-2;
+    background-image: url(./Images/_132541889_mediaitem132541888.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-news-item-image-3{
+    grid-area: top-news-item-image-3;
+    background-image: url(./Images/_132544652_gettyimages-1817803150.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-news-item-image-4{
+    grid-area: top-news-item-image-4;
+    background-image: url(./Images/_132546491_chelsea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-news-item-image-5{
+    grid-area: top-news-item-image-5;
+    background-image: url(./Images/_132523302_gettyimages-1933536481_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

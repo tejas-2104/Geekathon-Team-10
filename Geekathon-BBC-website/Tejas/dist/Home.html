@@ -5,41 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBC - Homepage</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-   <nav class="px-[120px] flex justify-between items-center bg-black text-white" >
-    <div class="flex space-x-4 items-center h-16">
-        <div class="max-w-28 max-h-24">
-            <img src="Images/BBClogo2.png" alt="BBClogo">
-        </div>
-        <div class="flex space-x-2">
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+<body class="font-reith">
+    <header class="header">
+        <nav class="navbar" >
+            <div class="navbar-left-items ">
+                <div class="navbar-item-logo">
+                    <img src="Images/BBClogo2.png" alt="BBClogo">
+                </div>
+                <div class="navbar-left-sigin">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="2rem" width="2rem">
+                        <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                    </svg>
+                    <a href="#">Sign in</a>
+                </div>
+            </div>
+            <div class="navbar-center-items">
+                <a  href="Home.html">Home</a>
+                <a  href="#">News</a>
+                <a  href="#">Sport</a>
+                <a  href="#">Earth</a>
+                <a  href="#">Reel</a>
+                <a  href="#">Worklife</a>
+                <a  href="#">Travel</a>
+                <a  href="#">Culture</a>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="0.1rem" width="1rem">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>    
+                </button>
+            </div>
+            <div class="navbar-right-items">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" height="1rem" width="1rem">
+                    <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
                 </svg>
-  
-            </span>
-            <a href="#">Sign in</a>
-        </div>
-    </div>
-    <div class="flex space-x-10">
-        <a href="Home.html">Home</a>
-        <a href="#">News</a>
-        <a href="#">Sport</a>
-        <a href="#">Earth</a>
-        <a href="#">Reel</a>
-        <a href="#">Worklife</a>
-        <a href="#">Travel</a>
-        <a href="#">Culture</a>
-        <span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-            </svg>    
-        </span>
-    </div>
-    <div>
-        <button>Search BBC</button>
-    </div>
-   </nav>
+                <a class="w-40 pr-20"  href="">
+                    Search BBC
+                </a>
+                 
+            </div>
+           </nav>
+    </header>
+    <main>
+        <section id="Top-news" class="section-Top-news-container">
+            <div class="section-Top-news-heading">
+                <h2 class="section-news-heading-1 ">Welcome to BBC.com</h2>
+                <h2 class="section-news-heading-2">Saturday, 3 February</h2>
+            </div>
+            <div id="top-news-items" class="top-news-items">
+                <div class="top-news-item-image-1">
+                    
+                    <p>Houthis vow to respond after US and UK strike 36 targets in Yemen</p>
+                    <p>
+                        US and UK launched joint strikes to deter the Houthis from targeting commercial shipping routes in the Red Sea.
+                    </p>
+                    <span>WORLD</span>
+                </div>
+                <div class="top-news-item-image-2">
+                    <p>Iran says US strikes are a 'strategic mistake'</p>
+                    <span>US & Canada</span>
+                    
+                </div>
+                <div class="top-news-item-image-3">
+                    <p> Namibia President Hage Geingob dies aged 82</p>
+                    <span>AFRICA</span>
+                    
+                </div>
+                <div class="top-news-item-image-4">
+                    <p>Premier League: Build-up to three games at 14:00 GMT, including Man Utd v West Ham</p>
+                    <span>FOOTBALL</span>
+                    
+                </div>
+                <div class="top-news-item-image-5">
+                    <p>HDua Lipa, Billie Eilish and SZA to star at Grammy Awards</p>
+                    <span>ENTERTAINMENT & ARTS</span>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="News">
+            <h2>News</h2>
+            <div id="News-item">
+                <img src="Images/_132497081_prisoners_2.jpg" alt="">
+                <h3>No more easy deals for Russian convicts freed to fight</h3>
+                <p></p>
+                <span>Russian prisoners released to fight in Ukraine are no longer offered a presidential pardon and face stricter conditions.</span>
+            </div>
+            <div id="News-item">
+                <img src="Images/_132545265_559e6a9395d1478b218e7d3e8dad5b4864e6fd0b0_128_1501_8441000x563 (1).jpg" alt="">
+                <h3>They fled as lava spilled into town - and they may never return</h3>
+                <p>
+                    Grindavik now lies empty, its people have fled, after molten lava seeped into the town.  
+                </p>
+                <span>EUROPE</span>
+            </div>
+            <div id="News-item">
+                <img src="Images/_132545197_p0h8ys84.jpg" alt="">
+                <h3>'It was like hell': Dozens killed in Chile wildfires</h3>
+                <p>
+                    Officials have warned the death toll is likely to rise as rescue teams reach the hardest hit areas.
+                </p>
+                <span>LATIN AMERICA & CARIBBEAN</span>
+            </div>
+        </section>
+        <section id="Sport">
+            <h2>Sport</h2>
+            <div id="Sport-items">
+                <img src="Images/" alt="">
+                <h3>England lose Duckett in chase of 399 to beat India</h3>
+                <p>
+                    England need 332 more runs to beat India in the second Test in Visakhapatnam, with nine wickets in hand after Ben Duckett falls late on day three.
+                </p>
+                <span>CRICKET</span>
+            </div>
+            <div id="Sport-items">
+                <img src="Images/" alt="">
+                <h3>'England were not spectacular but this was a fair start'</h3>
+                <p>
+                    So much could have gone wrong for England but they tried to be more expansive against Italy and will definitely improve against Wales, says Matt Dawson.
+                </p>
+                <span>RUGBY UNION</span>
+            </div>
+            <div id="Sport-items">
+                <img src="Images/" alt="">
+                <h3>The historic Scotland win that felt like a defeat</h3>
+                <p>
+                    Scotland went from total domination to total capitulation against Wales but emerged with a Six Nations win, writes Tom English.
+                </p>
+                <span>RUGBY UNION</span>
+            </div>
+        </section>
+        <section id="Weather">
+            <div>
+                <span>MUMBAI WEATHER</span>
+                <button>EDIT</button>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Images/0.gif" alt="">
+                </a>
+                <h4>SUN</h4>
+                <span>22 C</span>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Images/1.gif" alt="">
+                </a>
+                <h4>SUN</h4>
+                <span>22 C</span>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Images/1.gif" alt="">
+                </a>
+                <h4>SUN</h4>
+                <span>22 C</span>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="Images/1.gif" alt="">
+                </a>
+                <h4>SUN</h4>
+                <span>22 C</span>
+            </div>
+        </section>
+        <section id="Earth" style="background-image: url(./Images/p0836dcl.jpg);">
+            <div>
+                <div id="earth-conatiner-heading">
+                    <button>EARTH</button>
+                    <p>Solutions for a sustainable world</p>
+                </div>
+                <div>
+                    <button>Visit Earth</button>
+                </div>
+            </div>
+            <div id="earth-container-images">
+                <div id="earth-image-items">
+                    <a href="">
+                        <img src="Images/p0h863dv.jpg" alt="">
+                        <span>Can tree planting solve water crisis?</span>
+                    </a>
+                </div>
+                <div id="earth-image-items">
+                    <a href="">
+                        <img src="Images/p0h7v7z7.jpg" alt="">
+                        <span>'We are not climate refugees – we are pioneers'</span>
+                    </a>
+                </div>
+                <div id="earth-image-items">
+                    <a href="">
+                        <img src="Images/p0h6nvkg.jpg" alt="">
+                        <span>The giant structures where underwater life thrives</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="India News">
+            <h2>India News</h2>
+            <div id="indian-news-container">
+                <div id="indian-news-items">
+                    <a href="">
+                        <img src="" alt="">
+                        <p>India’s Modi shuns big spending in pre-poll budget </p>
+                        <p>
+                            The Indian government has presented the last budget before the country heads to general elections.
+                        </p>
+                        <span>INDIA</span>
+                    </a>
+                </div>
+                <div id="indian-news-items">
+                    <a href="">
+                        <img src="" alt="">
+                        <p>India comic's journey from jail to reality TV stardom </p>
+                        <p>
+                            Munawar Faruqui, jailed in 2021 for a joke he didn't crack, has won the popular reality show Bigg Boss.
+                        </p>
+                        <span>INDIA</span>
+                    </a>
+                </div>
+                <div id="indian-news-items">
+                    <a href="">
+                        <img src="" alt="">
+                        <p>
+                            England's Bashir to make Test debut v India
+                        </p>
+                        <p>
+                            Off-spinner Shoaib Bashir will make his England debut in the second Test against India in Visakhapatnam.
+                        </p>
+                        <span>CRICKET</span>
+                    </a>
+                </div>
+                <div id="indian-news-items">
+                    <a href="">
+                        <img src="" alt="">
+                        <p>
+                            India opposition leader arrested in corruption case 
+                        </p>
+                        <p>
+                            Hemant Soren stepped down as the chief minister of Jharkhand state, hours before his arrest.
+                        </p>
+                        <span>INDIA</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
 </body>
 </html>
