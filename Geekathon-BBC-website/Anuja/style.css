@@ -259,9 +259,6 @@ header {
   margin: 10px 0; /* Adjust the margin around the line */
 }
 
-/*-----second big image-------*/
-
-
 
 
 /*----------button---------*/
@@ -291,23 +288,72 @@ header {
   
 }
 /*------------------bottom-----------------------------*/
-.card{
+
+.background-image {
   position: relative;
-}
-.card img{
-  width: 100%;
+  background-image: url("https://ychef.files.bbci.co.uk/976x549/p08gp0tv.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
   height: 400px;
-  margin-top: 5%;
-}
-.card-text{
- position: absolute;
-color: #ffffff;
-top: 23%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 
+.images {
+  display: flex;
+  margin-top: 80px; /* Adjust as needed */
+}
+
+.card1 {
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  height: 200px;
+  margin-top: 0px;
+}
+
+.card1 img {
+  width: 100%;
+  height: auto;
+  max-height: 100px; /* Adjust the maximum height */
+  transition: transform 0.3s ease;
+  margin-top: 0px;
+}
+
+.card1-text {
+  padding: 10px;
+}
+
+.card1-text h3 {
+  margin: 0;
+}
+
+.card1-text p {
+  margin: 10px 5 ;
+}
+
+.card1:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.card1:hover img {
+  filter: brightness(50%); /* Darken the image on hover */
+}
+
+.around-the-bbc {
+  position: absolute;
+  top: 20px; /* Adjust the distance from the top */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
 
 
 /*--------------------footer----------------------------------*/
@@ -336,7 +382,7 @@ color: #ffff;
   padding-bottom: 5px;
 }
 footer {
-  background-color:#000000 ;
+  background-color:#2f2e2e ;
   
   margin-top: auto;
   /* margin-left: 50px; */
@@ -354,10 +400,10 @@ footer {
   color: white;
   margin-left: 70px;
   margin-right: 70px;
-  background-color: #000000;
+  background-color: #2f2e2e;
 }
 .f-d-2-mini {
-  background-color: #000000;
+  background-color: #2f2e2e;
   color: white;
   /* border: 1px solid orange; */
   /* margin-left:70px;
