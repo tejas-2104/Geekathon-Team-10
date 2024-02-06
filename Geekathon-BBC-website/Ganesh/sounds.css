@@ -347,11 +347,6 @@ navbar {
 
 /* Discover */
 
-.discover-container,
-.myl-container,
-.ynfl-container {
-    /* padding: 10px; */
-}
 
 .discover-cards,
 .myl-cards,
@@ -449,12 +444,12 @@ navbar {
 /* Categories */
 
 .main-categories {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin-top: 50px;
     /* margin-left: 50px; */
 }
 .categories-section-1 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     margin-bottom: 15px;
 }
@@ -466,7 +461,7 @@ navbar {
 
 .cat-img {
     /* z-index: -1; */
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     /* background-size; */
     background-repeat: no-repeat;
     width: 190px;
@@ -481,7 +476,7 @@ navbar {
 }
 
 .cat-h {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     width: 190px;
     color: #ff6803;
     font-weight: 700;
@@ -502,7 +497,7 @@ navbar {
 
 /*categories card2 */
 .cat-h2 {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     opacity: 0.9;
     text-decoration: underline;
     position: absolute;
@@ -523,7 +518,7 @@ navbar {
 /* card2 close */
 /*categories card3 */
 .cat-h3 {
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     opacity: 0.9;
     text-decoration: underline;
     position: absolute;
@@ -546,7 +541,7 @@ navbar {
 
 /*categories card4 */
 .cat-h4{
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     opacity: 0.9;
     text-decoration: underline;
     position: absolute;
@@ -568,7 +563,7 @@ navbar {
 
 /* categories card5   */
 .cat-h5{
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     opacity: 0.9;
     text-decoration: underline;
     position: absolute;
@@ -613,7 +608,7 @@ navbar {
 /* categories card6 close */
 /* categories card9*/
 .cat-h9{
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     opacity: 0.9;
     text-decoration: underline;
     position: absolute;
@@ -623,9 +618,9 @@ navbar {
     background-color: #130107;
     font-weight: 700;
     font-size: 20px;
-    padding-left:0px;
+    padding-left: 5px;
     padding-top: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     margin-left: 410px;
 }
 .a-cat:hover .cat-h9{
