@@ -86,7 +86,7 @@ a{
 }
 .top-news-item-image-1{
     grid-area: top-news-item-image-1;
-    background-image: url(./Images/_132544419_usshipattackshouthitargetinyemen.jpg);
+    background-image: url(Images/_132544419_usshipattackshouthitargetinyemen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -94,28 +94,28 @@ a{
 }
 .top-news-item-image-2{
     grid-area: top-news-item-image-2;
-    background-image: url(./Images/_132541889_mediaitem132541888.jpg);
+    background-image: url(Images/_132541889_mediaitem132541888.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .top-news-item-image-3{
     grid-area: top-news-item-image-3;
-    background-image: url(./Images/_132544652_gettyimages-1817803150.jpg);
+    background-image: url(Images/_132544652_gettyimages-1817803150.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .top-news-item-image-4{
     grid-area: top-news-item-image-4;
-    background-image: url(./Images/_132546491_chelsea.jpg);
+    background-image: url(Images/_132546491_chelsea.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .top-news-item-image-5{
     grid-area: top-news-item-image-5;
-    background-image: url(./Images/_132523302_gettyimages-1933536481_2.jpg);
+    background-image: url(Images/_132523302_gettyimages-1933536481_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
