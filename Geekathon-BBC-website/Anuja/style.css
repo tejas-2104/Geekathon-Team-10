@@ -258,6 +258,11 @@ header {
   width: 40%; /* Adjust the width of the line */
   margin: 10px 0; /* Adjust the margin around the line */
 }
+.line1 {
+  border-top: 1px solid #000000; /* Color of the line */
+  width: 40%; /* Adjust the width of the line */
+  margin: 10px 0; /* Adjust the margin around the line */
+}
 
 
 
@@ -279,6 +284,9 @@ header {
   vertical-align: middle;
   margin-right: 5px; /* Adjust the spacing between the icon and text */
   font-weight: bold;
+}
+#dots{
+  color: #ffffff;
 }
 .center {
   display: flex;
