@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  background-color: black;
+
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+.navbar-left-items{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: 4rem;
+}
+.navbar-item-logo img{
+  max-width:7rem ;
+  max-height:6rem ;
+}
+.navbar-left-sigin , .navbar-right-items{
+  display: flex;
+  align-items: center;
+  margin: 0 0.25rem;
+ 
+}
+.navbar-center-items{
+  display: flex;
+  gap: 2.5rem;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-right-items{
+  width: 16rem;
+  align-items: center;
+  background-color: #221f20;
+  padding: 0.5rem  0.75rem;
+}
+.navbar-right-items:hover{
+  background-color: #3f3b3c;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #2e2e2e;
+}
+
+  
+header {
+  background-color: white;
+}
+  
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+    
+}
+  
+.logo a {
+    
+  text-decoration: none;
+  color: black;
+  font-size: 28px;
+  font-weight: bold; /* Make the text bold */
+  padding: 5px; /* Add padding */
+  border: 2px solid #00ff00; /* Add green border */
+}
+  
+.all-links {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+  
+.all-links li {
+    
+  margin-right: 20px;
+}
+  
+.all-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Add transition for a smooth color change on hover */
+}
+  
+.all-links a:hover {
+  color: #888; /* Set the faint color on hover */
+}
+.material-symbols-outlined{
+  color: #00ff00;
+  font-weight: bold;
+}
+
+ /* -----------------------------------------------nav bar---------------------------*/ 
+@media only screen and (max-width: 768px) {
+  .all-links {
+    display: none; /* Hide the links on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .all-links.show {
+    display: flex; /* Show the links when the menu is toggled */
+  }
+   
+}
+
+/*------------------------1st image-----------------------------------------------------*/
+  .image-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .image-container img {
+    max-width: 45%;
+    height: auto;
+    
+  }
+
+ .image-container img:hover {
+    filter: brightness(70%); /* Apply brightness effect on hover */
+  }
+
+.overlay {
+  position: absolute;
+  top: 200px;
+  left: 70%;
+  width: 300px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30%;
+}
+
+.text-container {
+  text-align: left;
+  padding: 10px;
+  font-size: 28px;
+  color: #2e2e2e;
+  
+}
+
+.text-container h3 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease;
+}
+
+.text-container h3 a:hover {
+  text-decoration: underline;
+}
+
+.text-container p {
+  font-size: 1rem;
+}
+
+/*--------------------------------next three images--------------*/
+.twelve-images{
+  width: 60%;
+  margin: 0 auto;
+}
+.img{
+  height: 500px;
+}
+.three-images {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.image-2-container{
+  position: relative;
+  display: inline-block;
+  width: 30%; /* Adjust the width of each image container */
+  margin-bottom: 20px;
+  height: 500px;
+  
+}
+.image-2 img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.image-2:hover img {
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+.overlay1 {
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(255,255,255);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.text-container1 {
+  text-align: left;
+  padding: 20px;
+}
+
+.text-container1 h3 a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: text-decoration 0.3s ease;
+}
+
+.text-container1 h3 a:hover {
+  text-decoration: underline;
+}
+
+.text-container1 p {
+  font-size: 1rem;
+}
+.image-2{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  justify-content: space-between;
+  margin: 20px;
+}
+.line {
+  border-top: 1px solid #16d823; /* Color of the line */
+  width: 40%; /* Adjust the width of the line */
+  margin: 10px 0; /* Adjust the margin around the line */
+}
+
+/*-----second big image-------
+
+.second-big{
+  
+  margin-left: 15%;
+  
+}
+.image-container2 img{
+  height: 500px;
+  width: 1000px;
+  
+}*/
+.partner {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+#sponsor {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+#text {
+  color: white;
+  margin-right: 10px; /* Adjust as needed */
+}
+#logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+#storyworks-promo {
+  background-image: url('https://tpc.googlesyndication.com/simgad/13428966335364342062?');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.partner#upper {
+  margin-right: 40px; /* Adjust margin as needed */
+}
+
+#stories {
+  display: flex;
+  justify-content: center;
+}
+
+#story {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#copy {
+  margin-top: 20px;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#headline {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: black;
+}
+#cta{
+  color: black;
+
+}
+
+
+
+
+/*----------button---------*/
+#load-more-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* Change cursor on hover */
+#load-more-btn:hover {
+  background-color: #e0e0e0; /* Change the background color on hover if desired */
+}
+.material-symbols-outlined {
+  vertical-align: middle;
+  margin-right: 5px; /* Adjust the spacing between the icon and text */
+  font-weight: bold;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/*--------------------footer----------------------------------*/
+.f-d-3{
+  display: flex;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.fd3{
+  color: white;
+  font-size:14px;
+  font-weight:400;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.f-d-4{
+  /* border: 1px solid aqua; */
+  margin-left: 70px;
+  margin-right: 70px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-bottom:10px;
+  padding-bottom: 5px;
+}
+footer {
+  background-color:#000000 ;
+  margin-top: 70px;
+  /* margin-left: 50px; */
+}
+.fd2-a {
+  font-size:14px;
+  font-weight:500;
+  /* border: 1px solid orange; */
+  text-decoration: none;
+  color: white;
+  margin-right:135px;
+}
+.f-d-2 {
+  border-bottom: 1px solid rgb(176, 184, 176);
+  color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: #000000;
+}
+.f-d-2-mini {
+  background-color: #000000;
+  color: white;
+  /* border: 1px solid orange; */
+  /* margin-left:70px;
+  margin-right:70px; */
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+
+}
+.fd2-mini{
+  border-right:1px solid #919caa ;
+  margin-right:20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.fd3{
+  color: white;
+  font-size:14px;
+  font-weight:400;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+.f-d-3{
+  display: flex;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
