@@ -44,9 +44,13 @@ body {
     height: 4rem;
 }
 
-.navbar-item-logo img {
-    max-width: 7rem;
-    max-height: 6rem;
+.navbar-item-logo{
+    /* border: 1px solid green; */
+    color: white;
+    display: flex;
+    gap:5px;
+    font-size:26px;
+    font-weight:700;
 }
 
 .navbar-left-sigin,
@@ -58,19 +62,25 @@ body {
 }
 
 .navbar-center-items {
+    /* border:1px solid red; */
     display: flex;
-    gap: 2.5rem;
-
+    gap:1.5rem;
+    padding-bottom:1px;
 }
 
 .link {
     color:black;
-    text-decoration: none;
-    /* color: white; */
+    font-weight:500;
+    text-decoration: none; 
+}
+.link:hover{
+    border-bottom:2px solid black;
+
 }
 
 .navbar-right-items {
-    width: 16rem;
+    
+    width:12rem;
     align-items: center;
     background-color: #f8f3f5;
     padding: 0.5rem 0.75rem;
