@@ -105,18 +105,27 @@ html,body{
    
 }
 .upper-container-text h4{
-   border: 1px  solid rgb(3, 3, 3);
-    font-size: 20px;
-   color: #4e4e4e;
-   align-items: center;
-   margin-bottom: 10px;
+    font-size: 25px;
+    color: #4e4e4e;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    line-height: 1rem;
 }
+.upper-container-text p{
+    font-size: 23px;
+    line-height: 2rem;
+    color: #2E2E2ED9;
+    margin-bottom: 20px;
+}
+
 .upper-container-text{
     z-index: 1;
     position: absolute;
     margin-left:500px;
     margin-top:80px;
     background-color: white;
+    
 }
    
 
@@ -204,21 +213,254 @@ html,body{
 }
 /*work-culture*/
 .how-we-live{
-    /* width: 100%; */
-    /* height:; */
     width:100%;
-    height:100%;
+    height:60vh;
+    margin-bottom: 2rem;
+}
+.live-content{
+    position: relative;
+    background-color: white;
     background-image: url('https://ychef.files.bbci.co.uk/976x549/p0gc9s9c.webp');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 30px;
-    /* object-fit: cover; */
-   
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.content-text {
+    position: absolute;
+    right: 10%;
+    right: 40%;
+    top: 30%;
+    font-size: 30px;
+    color: #ffffff;
+}
+.heading{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.italic-white{
+    margin-top: 2rem;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 20px;
+}
+/*how live */ 
+.finance  h4{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    color: #2E2E2ED9;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+.finance-container{
+    height: 120vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 6rem;
+}
+.finance-container-1{
+    display: flex;
+    height: 50vh;
+    border: 1px solid black;
 }
 
-/* hr{
-    background-color: #4e4e4e;
+.finance-container-item{
+    width: 50%;
+    height: 50vh;
+    border: 1px solid red;
+    background-image: url('https://ychef.files.bbci.co.uk/1600x900/p0ggnd82.webp');
+    background-size:cover;
+    cursor: pointer;
+   
+}
+.finance-container-text h4{
+    font-size: 25px;
+    color: #4e4e4e;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+    line-height: 1rem;
+}
+.finance-container-text p{
+    font-size: 23px;
+    line-height: 2rem;
+    color: #2E2E2ED9;
+    margin-bottom: 20px;
+}
+
+.finance-container-text{
+    z-index: 1;
+    position: absolute;
+    margin-left:500px;
+    margin-top: 85px;
+    background-color: white; 
+}
+   
+
+.finance-container-2{
+    display: flex;
+    gap: 1rem;
+    height: 60vh;
+    border: 1px solid purple;
+    margin-top: 10px;
+    
+}
+.finance-item{
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+.finance-img-1{
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.finance-img-1 img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 30px;
+}
+.finance-img-1 img:hover{
+    transform: scale(1.2);
+    transition: all 0.365s ease-in-out;
+}
+.text h5{
+   font-size: 16px;
+   color:#4A4A4A ;
+   line-height: 1.5rem;
+}
+.text p{
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    color: #2E2E2ED9;
+}
+.italic{
+    font-style: italic;
+    color: #4A4A4A;
+    font-size: 20px;
+}
+.finance-img-2{
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.finance-img-2 img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 30px;
+}
+.finance-img-2 img:hover{
+    transform: scale(1.2);
+    transition: all 0.365s ease-in-out;
+}
+.finance-img-3{
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.finance-img-3 img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 30px;
+}
+.finance-img-3 img:hover{
+    transform: scale(1.2);
+    transition: all 0.365s ease-in-out;
+}
+/*finance-ended*/
+.most-popular{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    background-color: rgb(249,249,249);
+}
+.most-popular-items{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    height: 82%;
     border: 1px solid black;
-} */
+    justify-content: center;
+    align-items: center;
+
+}
+.most-popular h3{
+    margin: 2rem;
+    text-align: center;
+    color: #010101;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+.most-popular-item{
+    width: 20%;
+    height: 90%;
+    border: 1px solid green;
+}
+.item-1{
+    height: 33%;
+    width: 100%;
+}
+.items_-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.num{
+    width: 20%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #CBCBCB ;
+
+}
+
+.item-1-text{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    gap: 1rem;
+}
+.item-1-text a{
+    text-decoration: none;
+    margin-top: 1rem;
+    color: #4A4A4A;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+.item-1-text p{
+   font-size: 18px;
+   color: #2E2E2ECC;
+
+}
+
+
+
 
 
