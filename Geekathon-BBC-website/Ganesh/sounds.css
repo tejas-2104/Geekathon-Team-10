@@ -351,8 +351,6 @@ navbar {
 .myl-container,
 .ynfl-container {
     /* padding: 10px; */
-    /* margin-right:40px; */
-    margin-left: 60px;
 }
 
 .discover-cards,
@@ -453,8 +451,7 @@ navbar {
 .main-categories {
     border: 1px solid orange;
     margin-top: 50px;
-    margin-left: 50px;
-    
+    /* margin-left: 50px; */
 }
 .categories-section-1 {
     border: 1px solid black;
@@ -626,9 +623,9 @@ navbar {
     background-color: #130107;
     font-weight: 700;
     font-size: 20px;
-    padding-left: 5px;
+    padding-left:0px;
     padding-top: 70px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
     margin-left: 410px;
 }
 .a-cat:hover .cat-h9{
@@ -691,6 +688,10 @@ navbar {
 
 /* Footer */
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     margin-top: 70px;
     /* margin-left: 50px; */
@@ -698,16 +699,16 @@ footer {
 
 .f-d-1 {
     /* border: 1px solid rgb(250, 22, 52); */
+    width: 100%;
     background-color: white;
     display: flex;
     font-size: 14px;
     font-weight: 500;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .fd1-a {
     margin-right: 10px;
+
     /* border-right: 1px solid green; */
     text-decoration: none;
     color: black;
@@ -717,8 +718,7 @@ footer {
 .f-d-2 {
     border-bottom: 1px solid rgb(176, 184, 176);
     color: white;
-    margin-left: 70px;
-    margin-right: 70px;
+
 }
 
 .f-d-2-mini {
@@ -752,8 +752,8 @@ footer {
 
 .f-d-3 {
     display: flex;
-    margin-left: 70px;
-    margin-right: 70px;
+    /* margin-left: 70px;
+    margin-right: 70px; */
     margin-top: 5px;
     margin-bottom: 3px;
 }
@@ -770,12 +770,18 @@ footer {
 
 .f-d-4 {
     /* border: 1px solid aqua; */
-    margin-left: 70px;
-    margin-right: 70px;
+    /* margin-left: 70px; */
+    /* margin-right: 70px; */
     color: white;
     font-size: 14px;
     margin-bottom: 10px;
     padding-bottom: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Responsive */
