@@ -15,6 +15,7 @@ html,body{
     color: white;
     width: 80%;
     margin: 0 auto;
+    background-color: black;
 }
 .navbar-left-items{
     display: flex;
