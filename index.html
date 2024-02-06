@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="Geekathon-BBC-website/Tejas/dist/styles.css">
 </head>
-<body class="font-reith">
+<body>
     <header class="header">
         <nav class="navbar" >
             <div class="navbar-left-items ">
@@ -30,17 +30,17 @@
                 <a  href="#">Future</a>
                 <a  href="Geekathon-BBC-website/Pratik/dist/Index.html">Travel</a>
                 <a  href="Geekathon-BBC-website/Ganesh/sounds.html">Sounds</a>
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="0.1rem" width="1rem">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>    
+                <button style="background: transparent; border: none;">
+                    <span style="color: white;" class="material-symbols-outlined">
+                        more_horiz
+                        </span>  
                 </button>
             </div>
             <div class="navbar-right-items">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" height="1rem" width="1rem">
                     <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
                 </svg>
-                <a class="w-40 pr-20"  href="">
+                <a   href="">
                     Search BBC
                 </a>
                  
@@ -54,32 +54,31 @@
                 <h2 class="section-news-heading-2">Saturday, 3 February</h2>
             </div>
             <div id="top-news-items" class="top-news-items">
-                <div class="top-news-item-image-1">
-                    
-                    <p>Houthis vow to respond after US and UK strike 36 targets in Yemen</p>
+                <div class="top-news-item-images top-news-item-image-1"> 
+                    <h2>Houthis vow to respond after US and UK strike 36 targets in Yemen</h2>
                     <p>
                         US and UK launched joint strikes to deter the Houthis from targeting commercial shipping routes in the Red Sea.
                     </p>
-                    <span>WORLD</span>
+                    <p>WORLD</p>
                 </div>
-                <div class="top-news-item-image-2">
-                    <p>Iran says US strikes are a 'strategic mistake'</p>
-                    <span>US & Canada</span>
+                <div class="top-news-item-images top-news-item-image-2">
+                    <h3>Iran says US strikes are a 'strategic mistake'</h3>
+                    <p>US & Canada</p>
                     
                 </div>
-                <div class="top-news-item-image-3">
-                    <p> Namibia President Hage Geingob dies aged 82</p>
-                    <span>AFRICA</span>
+                <div class="top-news-item-images top-news-item-image-3">
+                    <h3> Namibia President Hage Geingob dies aged 82</h3>
+                    <p>AFRICA</p>
                     
                 </div>
-                <div class="top-news-item-image-4">
-                    <p>Premier League: Build-up to three games at 14:00 GMT, including Man Utd v West Ham</p>
-                    <span>FOOTBALL</span>
+                <div class="top-news-item-images top-news-item-image-4">
+                    <h3>Premier League: Build-up to three games at 14:00 GMT, including Man Utd v West Ham</h3>
+                    <p>FOOTBALL</p>
                     
                 </div>
-                <div class="top-news-item-image-5">
-                    <p>HDua Lipa, Billie Eilish and SZA to star at Grammy Awards</p>
-                    <span>ENTERTAINMENT & ARTS</span>
+                <div class="top-news-item-images top-news-item-image-5">
+                    <h3>HDua Lipa, Billie Eilish and SZA to star at Grammy Awards</h3>
+                    <p>ENTERTAINMENT & ARTS</p>
                     
                 </div>
             </div>
@@ -93,7 +92,7 @@
                     <p>
                         Russian prisoners released to fight in Ukraine are no longer offered a presidential pardon and face stricter conditions.
                     </p>
-                    <span>EUROPE</span>
+                    <p>EUROPE</p>
                 </div>
                 <div id="News-item" class="news-container-item-2">
                     <img src="Geekathon-BBC-website/Tejas/dist/Images/_132545265_559e6a9395d1478b218e7d3e8dad5b4864e6fd0b0_128_1501_8441000x563 (1).jpg" alt="">
@@ -101,7 +100,7 @@
                     <p>
                         Grindavik now lies empty, its people have fled, after molten lava seeped into the town.  
                     </p>
-                    <span>EUROPE</span>
+                    <p>EUROPE</p>
                 </div>
                 <div id="News-item" class="news-container-item-3">
                     <img src="Geekathon-BBC-website/Tejas/dist/Images/_132545197_p0h8ys84.jpg" alt="">
@@ -109,7 +108,7 @@
                     <p>
                         Officials have warned the death toll is likely to rise as rescue teams reach the hardest hit areas.
                     </p>
-                    <span>LATIN AMERICA & CARIBBEAN</span>
+                    <p>LATIN AMERICA & CARIBBEAN</p>
                 </div>
             </div>
         </section>
@@ -143,74 +142,88 @@
             </div>
         </section>
         <section id="Weather" class="weather-container">
-            <div>
-                <span>MUMBAI WEATHER</span>
+            <div style="display: flex; gap: 1%;">
+                <h3>MUMBAI WEATHER</h3>
                 <button>EDIT</button>
             </div>
             <div class="weather-container-items">
-                <div>
+                <div class="weather-container-items-content"> 
                     <a href="#">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/0.gif" alt="">
                     </a>
-                    <h4>SUN</h4>
-                    <span>22 C</span>
+                    <div>
+                        <h4>SUN</h4>
+                        <p>22 °C</p>
+                    </div>
                 </div>
-                <div>
+                <div class="weather-container-items-content">
                     <a href="#">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/1.gif" alt="">
                     </a>
-                    <h4>SUN</h4>
-                    <span>22 C</span>
+                    <div>
+                        <h4>MON</h4>
+                        <p>27 °C</p>
+                    </div>
                 </div>
-                <div>
+                <div class="weather-container-items-content">
                     <a href="#">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/1.gif" alt="">
                     </a>
-                    <h4>SUN</h4>
-                    <span>22 C</span>
+                    <div>
+                        <h4>TUE</h4>
+                        <p>25 °C</p>
+                    </div>
                 </div>
-                <div>
+                <div class="weather-container-items-content">
                     <a href="#">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/1.gif" alt="">
                     </a>
-                    <h4>SUN</h4>
-                    <span>22 C</span>
+                    <div>
+                        <h4>WED</h4>
+                        <p>31 °C</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="Earth" class="earth-container" style="background-image: url(Geekathon-BBC-website/Tejas/dist/Images/p0836dcl.jpg);">
+        <section id="Earth" class="earth-container">
             <div class="earth-container-content">
-                <div>
-                    <div id="earth-conatiner-heading">
+                <div class="earth-conatiner-content-1">
+                    <div class="earth-conatiner-heading">
                         <button>EARTH</button>
                         <p>Solutions for a sustainable world</p>
                     </div>
-                    <div>
-                        <button>Visit Earth</button>
+                    <div class="earth-conatiner-heading-1">
+                        <button style="display: flex; align-items: center; gap: 2rem;">Visit Earth
+                            <span class="material-symbols-outlined" >
+                                arrow_forward
+                            </span>
+                        </button>
+                        
                     </div>
                 </div>
                 <div id="earth-container-images" class="earth-container-images">
                     <div class="earth-image-items">
                         <a href="">
                             <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h863dv.jpg" alt="">
-                            <span>Can tree planting solve water crisis?</span>
+                            <h3>Can tree planting solve water crisis?</h3>
                         </a>
                     </div>
                     <div class="earth-image-items">
                         <a href="">
                             <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h7v7z7.jpg" alt="">
-                            <span>'We are not climate refugees – we are pioneers'</span>
+                            <h3>'We are not climate refugees – we are pioneers'</h3>
                         </a>
                     </div>
                     <div class="earth-image-items">
                         <a href="">
                             <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h6nvkg.jpg" alt="">
-                            <span>The giant structures where underwater life thrives</span>
+                            <h3>The giant structures where underwater life thrives</h3>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+        
         <section id="India News" class="indian-news-container">
             <h2>India News</h2>
             <div class="indian-news-container-items">
@@ -218,7 +231,7 @@
                     <a href="">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/_132518742_gettyimages-1968514812.jpg" alt="">
                     </a>
-                    <p>India’s Modi shuns big spending in pre-poll budget </p>
+                    <h3>India’s Modi shuns big spending in pre-poll budget </h3>
                     <p>
                         The Indian government has presented the last budget before the country heads to general elections.
                     </p>
@@ -228,7 +241,7 @@
                     <a href="">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/_132509220_capture.jpg" alt="">
                     </a>
-                    <p>India comic's journey from jail to reality TV stardom </p>
+                    <h3>India comic's journey from jail to reality TV stardom </h3>
                     <p>
                         Munawar Faruqui, jailed in 2021 for a joke he didn't crack, has won the popular reality show Bigg Boss.
                     </p>
@@ -238,9 +251,9 @@
                     <a href="">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/_132519614_gettyimages-1974826753.jpg" alt="">
                     </a>
-                    <p>
+                    <h3>
                         England's Bashir to make Test debut v India
-                    </p>
+                    </h3>
                     <p>
                         Off-spinner Shoaib Bashir will make his England debut in the second Test against India in Visakhapatnam.
                     </p>
@@ -250,9 +263,9 @@
                     <a href="">
                         <img src="Geekathon-BBC-website/Tejas/dist/Images/_132518737_gettyimages-1710340143.jpg" alt="">
                     </a>
-                    <p>
+                    <h3>
                         India opposition leader arrested in corruption case 
-                    </p>
+                    </h3>
                     <p>
                         Hemant Soren stepped down as the chief minister of Jharkhand state, hours before his arrest.
                     </p>
@@ -261,160 +274,169 @@
             </div>
         </section>
         <section id="Editors picks" class="editorspicks-container">
-            <h2>Editor’s Picks</h2>
-            <div class="editorpicks-content-container">
-                <div class="editorpicks-main-section">
-                    <div class="editorpicks-main-section-img-1" style="background-image: url(Geekathon-BBC-website/Tejas/dist/Images/p0h80b6c.jpg);">
-                        <h3> A West African ode to a fiery chicken dish</h3>
-                        <p>
-                            While South African in inspiration, Senegalese chef Pierre Thiam has adopted it
-                        </p>
+            <div class="editorspicks-container-1">
+                <h2>Editor’s Picks</h2>
+                <div class="editorpicks-content-container">
+                    <div class="editorpicks-main-section">
+                        <div class="editorpicks-main-section-img-1" style="background-image: url(Geekathon-BBC-website/Tejas/dist/Images/p0h80b6c.jpg);">
+                            <h1> A West African ode to a fiery chicken dish</h1>
+                            <p>
+                                While South African in inspiration, Senegalese chef Pierre Thiam has adopted it
+                            </p>
+                        </div>
+                        <div class="editorpicks-cards">
+                            <div class="card editorpicks-card-1">
+                                <a href="#">
+                                    <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8v0mb.jpg" alt="">
+                                </a>
+                                <h3>How Joni Mitchell forged a path for Taylor Swift</h3>
+                                <p>
+                                    With her radical honesty, Joni helped to pioneer intimate female songwriting
+                                </p>
+                                <span>CULTURE</span>
+                            </div>
+                            <div class="card editorpicks-card-2">
+                                <a href="#">
+                                    <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8ywt4.jpg" alt="">
+                                </a>
+                                <h3>How the codpiece flopped</h3>
+                                <p>
+                                    Some codpieces were empty – while others were used to store potpourri.
+                                </p>
+                                <span>FUTURE</span>
+                            </div>
+                            <div class="card editorpicks-card-3">
+                                <a href="#">
+                                    <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8g8hn.jpg" alt="">
+                                </a>
+                                <h3>Why the UK bubble tea market is 'special'</h3>
+                                <p>
+                                    A diverse group of young consumers are flocking to boba tea in droves
+                                </p>
+                                <span>WORKLIFE</span>
+                            </div>
+                            <div class="card editorpicks-card-4">
+                                <a href="#">
+                                    <img src="Geekathon-BBC-website/Tejas/dist/Images/_132542867_gettyimages-1964829474.jpg" alt="">
+                                </a>
+                                <h3>Why Kenyan men fail to condemn deadly misogyny</h3>
+                                <p>
+                                    Rising cases of femicide reveal entrenched sexist attitudes in the East African nation
+                                </p>
+                                <span>AFRICA</span>
+                            </div>
+                            <div class="card editorpicks-card-5">
+                                <a href="#">
+                                    <img src="Geekathon-BBC-website/Tejas/dist/Images/_132538774_musk-index2-reuters.jpg" alt="">
+                                </a>
+                                <h3>Can Musk's Neuralink brain chip really change the world?</h3>
+                                <p>
+                                    The world's richest man is betting heavily on his brain chip, but he has ground to make up
+                                </p>
+                                <span>HEALTH</span>
+                            </div>
+                            <div class="card editorpicks-card-6">
+                                <a href="#">
+                                    <img src="Geekathon-BBC-website/Tejas/dist/Images/_132544301_mountainrescue16x9indexpic.jpg" alt="">
+                                </a>
+                                <h3>I almost died up a mountain scattering dad's ashes</h3>
+                                <p>
+                                    Kitty Harrison felt "proper doom" while stuck on a tiny ledge on a notorious mountain
+                                </p>
+                                <span>WALES</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="editorpicks-cards">
-                        <div class="card editorpicks-card-1">
-                            <a href="#">
-                                <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8v0mb.jpg" alt="">
-                            </a>
-                            <h3>How Joni Mitchell forged a path for Taylor Swift</h3>
-                            <p>
-                                With her radical honesty, Joni helped to pioneer intimate female songwriting
-                            </p>
-                            <span>CULTURE</span>
-                        </div>
-                        <div class="card editorpicks-card-2">
-                            <a href="#">
-                                <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8ywt4.jpg" alt="">
-                            </a>
-                            <h3>How the codpiece flopped</h3>
-                            <p>
-                                Some codpieces were empty – while others were used to store potpourri.
-                            </p>
-                            <span>FUTURE</span>
-                        </div>
-                        <div class="card editorpicks-card-3">
-                            <a href="#">
-                                <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8g8hn.jpg" alt="">
-                            </a>
-                            <h3>Why the UK bubble tea market is 'special'</h3>
-                            <p>
-                                A diverse group of young consumers are flocking to boba tea in droves
-                            </p>
-                            <span>WORKLIFE</span>
-                        </div >
-                        <div class="card editorpicks-card-4">
-                            <a href="#">
-                                <img src="Geekathon-BBC-website/Tejas/dist/Images/_132542867_gettyimages-1964829474.jpg" alt="">
-                            </a>
-                            <h3>Why Kenyan men fail to condemn deadly misogyny</h3>
-                            <p>
-                                Rising cases of femicide reveal entrenched sexist attitudes in the East African nation
-                            </p>
-                            <span>AFRICA</span>
-                        </div>
-                        <div class="card editorpicks-card-5">
-                            <a href="#">
-                                <img src="Geekathon-BBC-website/Tejas/dist/Images/_132538774_musk-index2-reuters.jpg" alt="">
-                            </a>
-                            <h3>Can Musk's Neuralink brain chip really change the world?</h3>
-                            <p>
-                                The world's richest man is betting heavily on his brain chip, but he has ground to make up
-                            </p>
-                            <span>HEALTH</span>
-                        </div>
-                        <div class="card editorpicks-card-6">
-                            <a href="#">
-                                <img src="Geekathon-BBC-website/Tejas/dist/Images/_132544301_mountainrescue16x9indexpic.jpg" alt="">
-                            </a>
-                            <h3>I almost died up a mountain scattering dad's ashes</h3>
-                            <p>
-                                Kitty Harrison felt "proper doom" while stuck on a tiny ledge on a notorious mountain
-                            </p>
-                            <span>WALES</span>
-                        </div>
+                    <div class="editorpicks-aside">
+                        <ul>
+                            <li>LATEST BUSINESS NEWS</li>
+                            <li><span>1</span>Big US jobs rise in January surprises again</li>
+                            <li><span>2</span>Does Germany’s economy need more than a cup of coffee?</li>
+                            <li><span>3</span>Missing China billionaire banker quits all roles</li>
+                            <li><span>4</span>Zuckerberg wins on Wall Street after Washington hit</li>
+                            <li><span>5</span>Could AI 'trading bots' transform the world of investing?</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="editorpicks-aside">
-                    <ul>
-                        <li>LATEST BUSINESS NEWS</li>
-                        <li><span>1</span>Big US jobs rise in January surprises again</li>
-                        <li><span>2</span>Does Germany’s economy need more than a cup of coffee?</li>
-                        <li><span>3</span>Missing China billionaire banker quits all roles</li>
-                        <li><span>4</span>Zuckerberg wins on Wall Street after Washington hit</li>
-                        <li><span>5</span>Could AI 'trading bots' transform the world of investing?</li>
-                    </ul>
                 </div>
             </div>
         </section>
         <section id="Reel" class="reel-container" style="background-image: url(Geekathon-BBC-website/Tejas/dist/Images/p08h02kk.jpg);">
             <div class="reel-container-content">
-                <div>
+                <div class="reel-container-header-sec">
                     <div id="reel-conatiner-heading">
                         <a href="">REEL</a>
                         <p>The most amazing videos from the BBC</p>
                     </div>
                     <div>
-                        <button>Visit Reel</button>
+                        <button style="display: flex; align-items: center; gap: 2rem;">Visit Reel
+                            <span class="material-symbols-outlined" >
+                                arrow_forward
+                            </span>
+                        </button>
                     </div>
                 </div>
                 <div class="reel-container-images">
                     <div id="reel-image-items">
                         <a href="">
                             <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h896vx.jpg" alt="">
-                            <span>Mark Zukerberg's early years</span>
+                            <p>Mark Zukerberg's early years</p>
                         </a>
                     </div>
                     <div id="reel-image-items">
                         <a href="">
                             <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8kg20.jpg" alt="">
-                            <span>What to know about brain computers</span>
+                            <p>What to know about brain computers</p>
                         </a>
                     </div>
                     <div id="reel-image-items">
                         <a href="">
                             <img src="Geekathon-BBC-website/Tejas/dist/Images/p0h8hys7.jpg" alt="">
-                            <span>The enduring mystery of Amelia Earhart</span>
+                            <p>The enduring mystery of Amelia Earhart</p>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="Technology of business" class="tob-container">
-            <div class="tob-container-content-1">
-                <h2>Technology of business</h2>
-                <h2>Technology of business</h2>
-            </div>
-            <div class="tob-container-content-2">
-                <div>
-                    <a href="">
-                        <img src="Geekathon-BBC-website/Tejas/dist/Images/_132361922_ecococonpanels1-credit-ecococon.jpg" alt="">
-                    </a>
-                    <p>BUSINESS</p>
-                    <h3>Should more British homes be built using straw?</h3>
+            <div class="tob-container-content">
+                <div class="tob-container-content-1">
+                    <h2>Technology of business</h2>
+                    <h2>Technology of business</h2>
                 </div>
-                <div>empty</div>
-                <div>
-                    <a href="">
-                        <img src="Geekathon-BBC-website/Tejas/dist/Images/_132228205_whatsappimage2023-11-30at13.54.53_b81a1715.jpg" alt="">
-                    </a>
-                    <p>BUSINESS</p>
-                    <h3>India's ancient carpet weaving industry meets AI</h3>
+                <div class="tob-container-content-2">
+                    <div class="tob-container-content-2-items">
+                        <a href="">
+                            <img src="Geekathon-BBC-website/Tejas/dist/Images/_132361922_ecococonpanels1-credit-ecococon.jpg" alt="">
+                        </a>
+                        <p>BUSINESS</p>
+                        <h3>Should more British homes be built using straw?</h3>
+                    </div>
+                    <div class="tob-container-content-2-center">empty</div>
+                    <div class="tob-container-content-2-items">
+                        <a href="">
+                            <img src="Geekathon-BBC-website/Tejas/dist/Images/_132228205_whatsappimage2023-11-30at13.54.53_b81a1715.jpg" alt="">
+                        </a>
+                        <p>BUSINESS</p>
+                        <h3>India's ancient carpet weaving industry meets AI</h3>
+                    </div>
                 </div>
-            </div>
-            <div class="tob-container-content-3">
-                <div>
-                    <span>BBC WORLD SERVICE</span>
+                <div style=" color: white; background-color: #2F2F2F;" class="tob-container-content-3">
+                    <div>
+                        <p class="tob-container-content-3-p-1">BBC WORLD SERVICE</p>
+                    </div>
+                    <div style="display: flex; gap: 8px; align-items: center; background-color: #2F2F2F;">
+                        <span class="material-symbols-outlined">
+                            volume_up
+                        </span>
+                        <span>ON AIR: Newshour</span>
+                    </div>
                 </div>
-                <div>
-                    <span class="material-symbols-outlined">
-                        volume_up
-                    </span>
-                    <span>ON AIR: Newshour</span>
-                </div>
+
             </div>
         </section>
         <section id="More around the BBC" class="matb-container">
             <div class="matb-container-content">
-                <h2>More arount the BBC</h2>
+                <h2>More around the BBC</h2>
                 <div class="matb-container-content-sec">
                     <div class="matb-aside">
                         <ul class="matb-aside-content">
