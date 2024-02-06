@@ -187,6 +187,7 @@ header {
   width: 60%;
   margin: 0 auto;
 }
+
 .img{
   height: 500px;
 }
@@ -258,95 +259,7 @@ header {
   margin: 10px 0; /* Adjust the margin around the line */
 }
 
-/*-----second big image-------
-
-.second-big{
-  
-  margin-left: 15%;
-  
-}
-.image-container2 img{
-  height: 500px;
-  width: 1000px;
-  
-}*/
-.partner {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 100px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-}
-#sponsor {
-  position: absolute;
-  top: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
-}
-#text {
-  color: white;
-  margin-right: 10px; /* Adjust as needed */
-}
-#logo img {
-  height: 50px; /* Adjust the height as needed */
-}
-#storyworks-promo {
-  background-image: url('https://tpc.googlesyndication.com/simgad/13428966335364342062?');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  padding: 50px;
-  margin-left: 10%;
-  margin-right: 10%;
-  
-}
-#content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.partner#upper {
-  margin-right: 40px; /* Adjust margin as needed */
-}
-
-#stories {
-  display: flex;
-  justify-content: center;
-}
-
-#story {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-#copy {
-  margin-top: 20px;
-}
-
-#title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-#headline {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: black;
-}
-#cta{
-  color: black;
-
-}
+/*-----second big image-------*/
 
 
 
@@ -374,8 +287,27 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   
 }
+/*------------------bottom-----------------------------*/
+.card{
+  position: relative;
+}
+.card img{
+  width: 100%;
+  height: 400px;
+  margin-top: 5%;
+}
+.card-text{
+ position: absolute;
+color: #ffffff;
+top: 23%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #ffff;
+}
+
 
 
 /*--------------------footer----------------------------------*/
@@ -405,7 +337,8 @@ header {
 }
 footer {
   background-color:#000000 ;
-  margin-top: 70px;
+  
+  margin-top: auto;
   /* margin-left: 50px; */
 }
 .fd2-a {
