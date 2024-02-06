@@ -20,7 +20,7 @@ body {
     position: relative;
     z-index: 1;
     width: 100%;
-    background-color: black;
+    background-color: white;
 
 }
 
@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: black;
     width: 80%;
     margin: 0 auto;
 }
@@ -63,20 +63,21 @@ body {
 
 }
 
-a {
+.link {
+    color:black;
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 
 .navbar-right-items {
     width: 16rem;
     align-items: center;
-    background-color: #221f20;
+    background-color: #f8f3f5;
     padding: 0.5rem 0.75rem;
 }
 
 .navbar-right-items:hover {
-    background-color: #3f3b3c;
+    background-color: #c2b7b9;
 }
 
 /* navbar sounds */
