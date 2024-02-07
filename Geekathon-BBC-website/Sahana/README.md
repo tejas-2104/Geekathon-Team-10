@@ -13,7 +13,7 @@ For the creation of the Worklife Page section, a blend of HTML tags and CSS styl
 
 ## HTML Tags Used:
 
-- <section>: Employed to divide the content into distinct sections, providing a clear organization.
+- &lt section &gt: Employed to divide the content into distinct sections, providing a clear organization.
 - <div>: Used for grouping and styling purposes, allowing for flexible layout structuring.
 - <nav>: Utilized to define navigation menus, facilitating easy access to different sections of the page.
 - <main>: Used to encapsulate the primary content of the page, ensuring a clear hierarchy.
