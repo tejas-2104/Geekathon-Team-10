@@ -1,4 +1,4 @@
-# BBC Clone Project - Home Page Section
+# BBC Clone Project - [EARTH-PAGE](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Anuja/earth.html)
 
 ## Assigned Task
 As part of this project, I was tasked with replicating the user interface (UI) of the BBC Earth page. The goal was to closely mimic the layout, design elements, and functionality of the original webpage, ensuring a seamless and authentic user experience. By meticulously studying the structure and content of the BBC Earth page, I aimed to recreate its visual appeal and navigational features while maintaining consistency with the BBC brand. Through careful attention to detail and adherence to design principles, my objective was to deliver a faithful replica that captures the essence of the BBC Earth platform, providing users with a familiar and intuitive interface for accessing informative articles and engaging with content related to our planet's diverse ecosystems and environmental issues.
