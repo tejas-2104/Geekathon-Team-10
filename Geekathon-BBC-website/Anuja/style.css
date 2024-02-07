@@ -276,7 +276,7 @@ header {
   justify-content: space-between;
   margin: 20px;
 }
-.line {
+.first-line {
   border-top: 1px solid #16d823; /* Color of the line */
   width: 30%; /* Adjust the width of the line */
   margin: 10px 0; /* Adjust the margin around the line */
@@ -306,6 +306,7 @@ header {
   margin-bottom: 400px;
   margin-left: 150px;
   color: white;
+  display: flex;
 }
 
 .head hr {
@@ -313,7 +314,7 @@ header {
   border: none;
   border-top: 5px solid greenyellow;
   border-radius: 3px;
-  display: flex;
+  width:100%;
   
 }
 
@@ -346,6 +347,7 @@ header {
   color: white; /* Set text color to white */
   font-weight: bold;
   font-weight: 50px;
+  font-size: 25px
 }
 
 .green-dot {
