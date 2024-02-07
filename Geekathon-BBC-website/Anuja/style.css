@@ -145,8 +145,10 @@ header {
   }
   
   .image-container img {
-    max-width: 45%;
+    max-width: 62%;
+    margin-right: 33%;
     height: auto;
+
     
   }
 
@@ -156,15 +158,16 @@ header {
 
 .overlay {
   position: absolute;
-  top: 200px;
-  left: 70%;
+  top: 275px;
+  left: 42%;
   width: 300px;
-  height: 250px;
+  height: 200px;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30%;
+  margin-right: 80%;
 }
 
 .text-container {
@@ -172,6 +175,7 @@ header {
   padding: 10px;
   font-size: 28px;
   color: #2e2e2e;
+  
   
 }
 
@@ -189,6 +193,15 @@ header {
 
 .text-container p {
   font-size: 1rem;
+}
+.grand-container{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.Advertisement1{
+  padding: 2%;
 }
 
 
@@ -265,7 +278,7 @@ header {
 }
 .line {
   border-top: 1px solid #16d823; /* Color of the line */
-  width: 40%; /* Adjust the width of the line */
+  width: 30%; /* Adjust the width of the line */
   margin: 10px 0; /* Adjust the margin around the line */
 }
 .line1 {
@@ -286,6 +299,66 @@ header {
   align-items: center;
   padding-top: 10px;
 }
+
+.head {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 400px;
+  margin-left: 150px;
+  color: white;
+}
+
+.head hr {
+  margin-top: 5px;
+  border: none;
+  border-top: 5px solid greenyellow;
+  border-radius: 3px;
+  display: flex;
+  
+}
+
+.all-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  
+}
+.one hr {
+  width: 50%; /* Adjust the width as needed */
+}
+.one {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin-right: 20px; /* Adjust margin between items */
+  margin-bottom: 20px; /* Adjust margin between rows */
+  position: relative; /* Ensure positioning context for absolute positioning of .green-dot */
+}
+
+.line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  margin: -9px 20px; /* Adjust margin as needed */
+}
+
+.text {
+  margin-bottom: 0; 
+  color: white; /* Set text color to white */
+  font-weight: bold;
+  font-weight: 50px;
+}
+
+.green-dot {
+  position: absolute;
+  top: 0;
+  left: -15px; /* Adjust left positioning of the dot */
+  width: 10px;
+  height: 10px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
 /*-----------Advertisment2------------------*/
 .advertisment2{
   background-color: #e2e0e0c4;
@@ -308,6 +381,7 @@ header {
   text-transform: uppercase;
   text-align:center;
 }
+
 
 
 

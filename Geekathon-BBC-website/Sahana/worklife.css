@@ -179,27 +179,26 @@ hr{
    
 }
 .upper-container-text h4{
-    font-size: 25px;
+    font-size: 20px;
     color: #4e4e4e;
     align-items: center;
-    margin-bottom: 30px;
-    width: 100%;
-    line-height: 1rem;
-}
+    margin-right: 60px;
+} 
 .upper-container-text p{
     font-size: 23px;
     line-height: 2rem;
     color: #2E2E2ED9;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .upper-container-text{
     z-index: 1;
     position: absolute;
-    margin-left:400px;
-    margin-top:80px;
+    margin-left:420px;
+    margin-top:20px;
     background-color: white;
     padding: 20px 20px;
+    
     
 }
    
@@ -251,7 +250,7 @@ hr{
     font-style: italic;
     color: #4A4A4A;
     font-size: 20px;
-    padding: 10px 10px;
+    padding: 0px 10px;
 }
 .content-img-2{
     width: 100%;
@@ -339,7 +338,7 @@ hr{
    text-align: center;
    margin-left: 800px;
    color: #6c6c6c;
-   font-size: 11px;
+   font-size: 12px;
    margin-bottom: -20px;
   
   
@@ -353,6 +352,7 @@ h4{
     letter-spacing: 3px;
     color: #3f3b3c;
 }
+
 
 
 .finance-container{
@@ -392,14 +392,13 @@ h4{
     font-size: 23px;
     line-height: 2rem;
     color: #2E2E2ED9;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 0px 20px;
 }
-
 .finance-container-text{
     z-index: 1;
     position: absolute;
-    margin-left:300px;
+    margin-left:400px;
     margin-top: 85px;
     background-color: white; 
 }
@@ -492,10 +491,10 @@ h4{
     display: flex;
 }
 .tokoyo-wrap h3{
-    margin-left: 160px;
-    padding: 10px 0px;
+    margin-left: 190px;
+    padding: 4px 0px;
     color: #4e4e4e;
-    font-size: 15px;
+    font-size: 12px;
 }
 .tokoyo-wrap{
     display: flex;
