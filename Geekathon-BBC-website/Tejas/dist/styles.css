@@ -49,6 +49,7 @@ section h2:hover{
 }
 .navbar-center-items{
     display: flex;
+    align-items: center;
     gap: 2.5rem;
     flex-shrink: 1; 
     
