@@ -145,8 +145,10 @@ header {
   }
   
   .image-container img {
-    max-width: 45%;
+    max-width: 62%;
+    margin-right: 33%;
     height: auto;
+
     
   }
 
@@ -156,15 +158,16 @@ header {
 
 .overlay {
   position: absolute;
-  top: 200px;
-  left: 70%;
+  top: 275px;
+  left: 42%;
   width: 300px;
-  height: 250px;
+  height: 200px;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 30%;
+  margin-right: 80%;
 }
 
 .text-container {
@@ -172,6 +175,7 @@ header {
   padding: 10px;
   font-size: 28px;
   color: #2e2e2e;
+  
   
 }
 
@@ -189,6 +193,15 @@ header {
 
 .text-container p {
   font-size: 1rem;
+}
+.grand-container{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.Advertisement1{
+  padding: 2%;
 }
 
 
@@ -265,7 +278,7 @@ header {
 }
 .line {
   border-top: 1px solid #16d823; /* Color of the line */
-  width: 40%; /* Adjust the width of the line */
+  width: 30%; /* Adjust the width of the line */
   margin: 10px 0; /* Adjust the margin around the line */
 }
 .line1 {
