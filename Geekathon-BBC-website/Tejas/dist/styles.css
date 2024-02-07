@@ -184,7 +184,7 @@ section h2:hover{
     width: 80%;
     margin: 0 auto;
 }
-.weather-container-items,.earth-container-images,.reel-container-images,.matb-container-content-sec,.matb-aside-content  li {
+.earth-container-images,.reel-container-images,.matb-container-content-sec,.matb-aside-content  li {
     display: flex;
     /* justify-content: space-evenly; */
     gap: 1rem;
@@ -261,9 +261,19 @@ section h2:hover{
 .weather-container{
     margin: 3rem auto;
 }
+.weather-container-items{
+    display: flex;
+
+}
 .weather-container-items-content{
     display: flex;
-    margin: 2rem ;
+    overflow: hidden;
+    margin: 0 1rem;
+}
+.weather-container >div:first-of-type{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 .weather-container-items-content a{
     margin-right: 1rem;
@@ -876,6 +886,7 @@ footer {
     margin-top: 25px;
     margin-bottom: 10px;
     display: flex;
+    overflow: hidden;
 
 }
 .fd2-mini{
