@@ -6,6 +6,15 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+section h2{
+    color: #4a4a4a;
+    cursor: pointer;
+}
+section h2:hover{
+    color: #221f20;
+    cursor: pointer;
+}
+/* header-nav */
 .header{
     width: 100%;
     background-color: black;
@@ -18,6 +27,7 @@ body{
     color: white;
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
 .navbar-left-items{
     display: flex;
@@ -25,12 +35,13 @@ body{
     margin-right: 1rem;
     margin-left: 1rem;
     height: 4rem;
+    flex-shrink: 1;
 }
 .navbar-item-logo img{
     max-width:7rem ;
     max-height:6rem ;
 }
-.navbar-left-sigin , .navbar-right-items{
+.navbar-left-sigin {
     display: flex;
     align-items: center;
     margin: 0 0.25rem;
@@ -39,6 +50,7 @@ body{
 .navbar-center-items{
     display: flex;
     gap: 2.5rem;
+    flex-shrink: 1; 
     
 }
 .navbar a{
@@ -46,15 +58,26 @@ body{
     color: white;
 }
 .navbar-right-items{
-    width: 16rem;
+    width: 20%;
     display: flex;
-    align-content: center;
+    /* align-items: center; */
     background-color: #221f20;
     padding: 0.5rem  0.75rem;
+    flex-shrink: 1; 
 }
 .navbar-right-items:hover{
     background-color: #3f3b3c;
 }
+.nav-right-svg,.navbar-right-items a {
+    display: flex; /* Ensure SVG and anchor are displayed as flex items */
+    align-items: center; /* Align content vertically */
+    color: white; /* Set color for both SVG and anchor */
+    
+}
+
+
+
+/* top */
 .section-Top-news-container{
     width: 80%;
     margin: 0 auto;
@@ -99,8 +122,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
-
 }
 .top-news-item-image-2{
     grid-area: top-news-item-image-2;
@@ -143,6 +164,13 @@ body{
     margin:0 0.5rem 0.5rem 0.5rem;
 }
 
+.top-news-item-images p:last-of-type{
+    color: #C1C1C1;
+}
+.top-news-item-images p:last-of-type:hover{
+    text-decoration: underline;
+}
+
 /* news sec */
 .news-container h2{
     margin: 1rem  0;
@@ -160,7 +188,7 @@ body{
     display: flex;
     justify-content: space-between;
     /* align-items: top; */
-    gap: 1rem;
+    gap: 0.5rem;
     
 }
 .news-container-items > div{ 
@@ -168,6 +196,37 @@ body{
     flex: 1;
     max-width: 100%;
 }
+.news-container-item-1,.news-container-item-2,.news-container-item-3{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.news-container-item-1 p,.news-container-item-2 p,.news-container-item-3 p,.news-container-item-1 h3,.news-container-item-2 h3,.news-container-item-3 h3{
+    max-width: 100%;
+    
+}
+.news-container-item-1 p:first-of-type,.news-container-item-2 p:first-of-type,.news-container-item-3 p:first-of-type{
+    color: #8A8A8A;
+    margin: 0.5rem 0;
+}
+
+
+.news-container-items p:last-of-type , #Sport-items p:last-of-type{
+    color: #C1C1C1;
+    /* padding: 1rem 0; */
+    /* border: 2px solid blue; */
+    
+}
+/* .news-container-item-2 p:last-of-type{
+    margin-top: 2rem;
+} */
+.news-container-items p:last-of-type:hover ,#Sport-items p:last-of-type:hover{
+    text-decoration: underline;
+}
+
 
 /* sports */
 .sports-container h2{
@@ -183,6 +242,15 @@ body{
     flex: 1;
     max-width: 100%;
 }
+#Sport-items p:first-of-type{
+    color: #8A8A8A;
+    margin: 0.5rem 0;
+}
+#Sport-items p:last-of-type{
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
 
 /* weather */
 .weather-container{
@@ -191,6 +259,9 @@ body{
 .weather-container-items-content{
     display: flex;
     margin: 2rem ;
+}
+.weather-container-items-content a{
+    margin-right: 1rem;
 }
 /* earth sec*/
 .earth-container{
@@ -261,6 +332,17 @@ body{
 #indian-news-items p{
     margin: 0.5rem 0 ;
 }
+#indian-news-items p:first-of-type{
+    color: #8A8A8A;
+    cursor: pointer;
+}
+#indian-news-items p:last-of-type{
+    color: #C1C1C1;
+    cursor: pointer;
+}
+#indian-news-items p:last-of-type:hover{
+    text-decoration: underline;
+}
 
 
 /* editor sec */
@@ -296,16 +378,20 @@ body{
     justify-content: flex-end;
     flex-direction: column;
     /* align-items: center; */
+    cursor: pointer;
 }
-.editorpicks-main-section-img-1-text{
-    margin: 1rem;
-}
-.editorpicks-main-section-img-1-text h1{
+.editorpicks-main-section-img-1 h1{
     font-size: xx-large;
 }
-.editorpicks-main-section-img-1-text p{
+.editorpicks-main-section-img-1 p{
     color: #fff3ff;
     font-weight: 600;
+}
+.editorpicks-main-section-img-1 p:last-of-type,.matb-main-container-img-1 p:last-of-type{
+    color: #C1C1C1;
+}
+.editorpicks-main-section-img-1 p:last-of-type:hover,.matb-main-container-img-1 p:last-of-type:hover{
+    text-decoration: underline;
 }
 .editorpicks-cards,.matb-cards{
     max-width: 100%;
@@ -343,6 +429,10 @@ body{
     flex-direction: column;
     overflow: hidden;
     margin: 1rem 0;
+    background-color: white;
+}
+.editorpicks-card-1,.editorpicks-card-2,.editorpicks-card-3,.editorpicks-card-4,.editorpicks-card-5,.editorpicks-card-6{
+    padding: 1rem;
 }
 .card img{
     width: 100%;
@@ -392,6 +482,7 @@ body{
 .editorpicks-aside li:first-child {
     background-color: initial; /* Set background color back to default or override with another style */
     padding: 1rem;
+    color: white;
 }
 
 
@@ -494,6 +585,9 @@ body{
 }
 
 /* matb sec */
+.matb-container{
+    background-color: #F6F6F6;
+}
 .matb-container-content{
     width: 80%;
     margin: 0 auto;
@@ -650,9 +744,7 @@ body{
 }
 
 /* extra styling  */
-.section h2{
-    color: #4C4C4C;
-}
+
 /* footer */
 footer {
     background-color:#4C4C4C ;
