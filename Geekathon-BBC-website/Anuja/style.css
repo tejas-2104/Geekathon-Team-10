@@ -286,6 +286,66 @@ header {
   align-items: center;
   padding-top: 10px;
 }
+
+.head {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 400px;
+  margin-left: 150px;
+  color: white;
+}
+
+.head hr {
+  margin-top: 5px;
+  border: none;
+  border-top: 5px solid greenyellow;
+  border-radius: 3px;
+  display: flex;
+  
+}
+
+.all-img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  
+}
+.one hr {
+  width: 50%; /* Adjust the width as needed */
+}
+.one {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin-right: 20px; /* Adjust margin between items */
+  margin-bottom: 20px; /* Adjust margin between rows */
+  position: relative; /* Ensure positioning context for absolute positioning of .green-dot */
+}
+
+.line {
+  width: 100%;
+  border: none;
+  border-top: 1px solid black;
+  margin: -9px 20px; /* Adjust margin as needed */
+}
+
+.text {
+  margin-bottom: 0; 
+  color: white; /* Set text color to white */
+  font-weight: bold;
+  font-weight: 50px;
+}
+
+.green-dot {
+  position: absolute;
+  top: 0;
+  left: -15px; /* Adjust left positioning of the dot */
+  width: 10px;
+  height: 10px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
 /*-----------Advertisment2------------------*/
 .advertisment2{
   background-color: #e2e0e0c4;
@@ -308,6 +368,7 @@ header {
   text-transform: uppercase;
   text-align:center;
 }
+
 
 
 
