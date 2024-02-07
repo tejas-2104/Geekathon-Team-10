@@ -6,6 +6,7 @@ For this project, I had to make the Sounds Page. I used HTML and CSS to create a
 ## Hosted Link
 
 [Visit our website](https://geekathon-team-10.vercel.app/)
+[Visit Sound Page](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Ganesh/sounds.html)
 
 ## Description
 
