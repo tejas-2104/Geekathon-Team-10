@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBC Sign In</title>
+  <link rel="stylesheet" href="signin.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar" >
+        <div class="navbar-left-items ">
+            <div class="navbar-item-logo">
+                <img src="Images/BBClogo2.png" alt="BBClogo">
+            </div>
+            <div class="navbar-left-sigin">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="2rem" width="2rem">
+                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                </svg>
+                <a href="Geekathon-BBC-website/Tejas/dist/signin.html">Sign in</a>
+            </div>
+        </div>
+        <div class="navbar-center-items">
+            <a  href="../../../index.html" class="font-bold m-2 pr-2">Home</a>
+            <a  href="../../Julekha/dist/NewsPage.html">News</a>
+            <a  href="../../Vishal/sport.html">Sport</a>
+            <a  href="../../Anuja/earth.html">Earth</a>
+            <a  href="#">Reel</a>
+            <a  href="../../Sahana/worklife.html">Worklife</a>
+            <a  href="../../Pratik/dist/Travel.html">Travel</a>
+            <a  href="../../Ganesh/sounds.html">Sounds</a>
+            <button style="background: transparent; border: none;">
+                <span style="color: white;" class="material-symbols-outlined">
+                    more_horiz
+                    </span>  
+            </button>
+        </div>
+        <div class="navbar-right-items">
+            <div class="nav-right-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" height="1rem" width="1rem">
+                    <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <a   href="">
+                Search BBC
+            </a>
+        </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <form class="signin-form">
+      
+      <svg id="logo" style="fill: white;" class="sb-bbc-blocks sb-bbc-blocks--large" viewBox="0 0 112 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g><path d="M71.9999,0 L71.9999,31.9999556 L39.9999444,31.9999556 L39.9999444,0 L71.9999,0 Z M31.9999556,0 L31.9999556,31.9999556 L-1.77635684e-14,31.9999556 L-1.77635684e-14,0 L31.9999556,0 Z M111.999811,4.44443827e-05 L111.999811,32 L79.9998556,32 L79.9998556,4.44443827e-05 L111.999811,4.44443827e-05 Z M97.4691646,6.80825721 C96.0292777,6.80825721 94.7292795,7.02225691 93.56917,7.44981188 C92.4088383,7.87781128 91.4136175,8.49469931 90.583952,9.30047597 C89.7537309,10.1066971 89.1187318,11.0732513 88.6783991,12.1999164 C88.237733,13.3269148 88.0176222,14.5895797 88.0176222,15.9875778 C88.0176222,17.418798 88.2295108,18.7062407 88.6529546,19.8493502 C89.0761763,20.9929042 89.6859532,21.9591251 90.4822854,22.7487906 C91.2782843,23.5383451 92.2520608,24.1430109 93.4040592,24.5624548 C94.5557242,24.9818986 95.8515002,25.1916761 97.291276,25.1916761 C98.3750523,25.1916761 99.4084953,25.0721207 100.391049,24.8337877 C101.373159,24.5955658 102.236936,24.2705663 102.98249,23.8592335 L102.98249,23.8592335 L102.98249,20.4292383 C101.407159,21.4001258 99.6879393,21.8851252 97.8249419,21.8851252 C96.6052769,21.8851252 95.5677228,21.6549033 94.7125018,21.1942372 C93.8570585,20.7337934 93.2048372,20.0633499 92.7562823,19.1831289 C92.3071718,18.3032412 92.0829499,17.2380205 92.0829499,15.9875778 C92.0829499,14.7376906 92.3155051,13.676581 92.7815045,12.8044711 C93.2472816,11.9326945 93.9161696,11.2664732 94.7887239,10.8058072 C95.6608338,10.3453634 96.7153879,10.1148082 97.9519417,10.1148082 C98.849496,10.1148082 99.7050504,10.2342525 100.517938,10.4725855 C101.331048,10.7112518 102.084492,11.060918 102.779268,11.5212507 L102.779268,11.5212507 L102.779268,8.01736664 C102.017047,7.62258941 101.191271,7.32258983 100.30205,7.11670123 C99.4128286,6.91125707 98.4683855,6.80825721 97.4691646,6.80825721 Z M55.7551448,6.99999028 L48.9999319,6.99999028 L48.9999319,24.9999653 L56.1712553,24.9999653 C57.5908089,24.9999653 58.8062517,24.7902989 59.818028,24.3706328 C60.8296933,23.9513001 61.6086922,23.3553009 62.1554692,22.5831909 C62.7019129,21.8114142 62.975357,20.8881932 62.975357,19.8139725 C62.975357,18.7231962 62.694024,17.7959753 62.1311359,17.0320875 C61.5680256,16.2686441 60.7562489,15.7104226 59.6956949,15.3579787 C60.4624716,14.9890903 61.0419152,14.4894243 61.4334702,13.8600919 C61.8251364,13.2307594 62.0209139,12.4880938 62.0209139,11.632095 C62.0209139,10.1385415 61.4741368,8.99309862 60.3811384,8.19576639 C59.2876954,7.39887861 57.7456976,6.99999028 55.7551448,6.99999028 L55.7551448,6.99999028 Z M15.7552003,6.99999028 L8.9999875,6.99999028 L8.9999875,24.9999653 L16.1713109,24.9999653 C17.5908645,24.9999653 18.8061961,24.7902989 19.8181947,24.3706328 C20.8296377,23.9513001 21.6087478,23.3553009 22.1555248,22.5831909 C22.7020796,21.8114142 22.9755236,20.8881932 22.9755236,19.8139725 C22.9755236,18.7231962 22.6940796,17.7959753 22.1310804,17.0320875 C21.5681923,16.2686441 20.7563045,15.7104226 19.6957504,15.3579787 C20.4625271,14.9890903 21.0418597,14.4894243 21.4335258,13.8600919 C21.8251919,13.2307594 22.0209694,12.4880938 22.0209694,11.632095 C22.0209694,10.1385415 21.4740813,8.99309862 20.3810828,8.19576639 C19.287751,7.39887861 17.7457531,6.99999028 15.7552003,6.99999028 L15.7552003,6.99999028 Z M55.8774891,17.2209094 C58.1127082,17.2209094 59.2307066,18.0434638 59.2307066,19.6881282 C59.2307066,20.4602382 58.9368181,21.051793 58.3495967,21.4629035 C57.7621531,21.8743474 56.9215987,22.0796804 55.8286002,22.0796804 L55.8286002,22.0796804 L52.6468269,22.0796804 L52.6468269,17.2209094 Z M15.8775446,17.2209094 C18.1128748,17.2209094 19.2307622,18.0434638 19.2307622,19.6881282 C19.2307622,20.4602382 18.9369848,21.051793 18.3496523,21.4629035 C17.7622087,21.8743474 16.9216543,22.0796804 15.8286558,22.0796804 L15.8286558,22.0796804 L12.6468824,22.0796804 L12.6468824,17.2209094 Z M55.4124786,9.920264 C57.3540315,9.920264 58.3251412,10.6338186 58.3251412,12.0600388 C58.3251412,12.7988156 58.0762527,13.3734814 57.5785867,13.784592 C57.0806985,14.1960358 56.3586995,14.4013689 55.4124786,14.4013689 L55.4124786,14.4013689 L52.6468158,14.4013689 L52.6468158,9.920264 Z M15.4125341,9.920264 C17.354087,9.920264 18.3251968,10.6338186 18.3251968,12.0600388 C18.3251968,12.7988156 18.0761971,13.3734814 17.5786423,13.784592 C17.0807541,14.1960358 16.3587551,14.4013689 15.4125341,14.4013689 L15.4125341,14.4013689 L12.6468713,14.4013689 L12.6468713,9.920264 Z" id="BBC-Blocks"></path></g></svg>
+      
+      <h1>Sign in with your email or username</h1>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+      <!-- <label for="password">Password</label>
+      <input type="password" id="password" name="password" required> -->
+      <button type="submit">Sign In</button>
+      <p class="forgot-password"><a href="#">Forgot password?</a></p>
+    </form>
+  </div>
+  
+  <footer>
+
+    <!-- <div class="f-d-1">
+        <a href="#" class="fd1-a" style="margin-left:50px ;">Cymraeg</a>
+        <a href="#" class="fd1-a" style="margin-left:10px; padding-left:12px; padding-right:12px; border-right: 1px solid rgb(105, 110, 105); border-left: 1px solid rgb(105, 110, 105);">Gaeilge</a>
+        <a href="#" class="fd1-a" style="margin-left:10px; margin-right:400px; ">Gàidhlig</a>
+        <a href="#" class="fd1-a" style="padding-right: 10px;border-right: 1px solid rgb(105, 110, 105);">BBC Sounds Help</a>
+        <a href="#" class="fd1-a" style="padding-right: 10px; border-right: 1px solid rgb(105, 110, 105);">Contacts, Privacy and Information</a>
+        <a href="#" class="fd1-a" style="padding-right: 10px; border-right: 1px solid rgb(105, 110, 105);">Help with Signing In</a>
+        <a href="#" class="fd1-a">Newsletter</a>
+    </div> -->
+
+    <div class="f-d-2">
+        <h2>Explore the BBC</h2>
+        <div class="f-d-2-mini">
+            <div class="fd2-mini">
+                <a href="../../../index.html" class="fd2-a">Home</a>
+                <br>
+                <a href="../../Pratik/dist/Travel.html" class="fd2-a">Travel</a>
+            </div>
+            <div class="fd2-mini">
+                <a href="../../Julekha/dist/NewsPage.html" class="fd2-a">News</a>
+                <br>
+                <a href="#" class="fd2-a">Culture</a>
+            </div>
+            <div class="fd2-mini">
+                <a href="../../Vishal/sport.html" class="fd2-a">Sport</a>
+                <br>
+                <a href="#" class="fd2-a">Future</a>
+            </div>
+            <div class="fd2-mini">
+                <a href="../../Anuja/earth.html" class="fd2-a">Earth</a>
+                <br>
+                <a href="#" class="fd2-a">Tv</a>
+            </div>
+            <div class="fd2-mini">
+                <a href="#" class="fd2-a">Reel</a>
+                <br>
+                <a href="#" class="fd2-a">Weather</a>
+            </div>
+            <div class="fd2-mini">
+                <a href="../../Sahana/worklife.html" class="fd2-a">Worklife</a>
+                <br>
+                <a href="../../Ganesh/sounds.html" class="fd2-a">Sounds</a>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <div class="f-d-3">
+        <a href="#" class="fd3">Terms of Use</a>
+        <a href="#" class="fd3">About the BBC</a>
+        <a href="#" class="fd3">Privacy Policy</a>
+        <a href="#" class="fd3">Cookies</a>
+        <a href="#" class="fd3">Accessibility Help</a>
+        <a href="#" class="fd3">Parental Guidence</a>
+        <a href="#" class="fd3">Contact the BBC</a>
+        <a href="#" class="fd3">BBC emails for you</a>
+        <a href="#" class="fd3">Adverties with us</a>
+    </div>
+    <div class="f-d-4">
+        Copyright © 2024 BBC.The BBC is not responsible for the content of external sites. 
+        <a href="#" style="text-decoration: none; color: white;">Read about our approach to external linking. </a>
+    </div>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,232 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+  
+.header{
+  width: 100%;
+  background-color: black;
+
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.navbar-left-items{
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: 4rem;
+  flex-shrink: 1;
+}
+.navbar-item-logo img{
+  max-width:7rem ;
+  max-height:6rem ;
+}
+.navbar-left-sigin {
+  display: flex;
+  align-items: center;
+  margin: 0 0.25rem;
+ 
+}
+.navbar-center-items{
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-shrink: 1; 
+  
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-right-items{
+  width: 20%;
+  display: flex;
+  /* align-items: center; */
+  background-color: #221f20;
+  padding: 0.5rem  0.75rem;
+  flex-shrink: 1; 
+}
+.navbar-right-items:hover{
+  background-color: #3f3b3c;
+}
+.nav-right-svg,.navbar-right-items a {
+  display: flex; /* Ensure SVG and anchor are displayed as flex items */
+  align-items: center; /* Align content vertically */
+  color: white; /* Set color for both SVG and anchor */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+  
+.signin-form {
+  background-color: black;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    color: white;
+}
+.signin-form svg{
+  background-color: black;
+  margin-bottom: 10px;
+  
+  color:white;
+}
+h1 {
+    margin-top: 0;
+    /* font-size: 24px; */
+    text-align: center;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"]{
+  margin-bottom: 1rem;
+  border: 2px solid white;
+  text-decoration: underline;
+  background-color: black;
+  width: 100%;
+  color: white;
+  border-radius:4px ;
+}
+  
+/* input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+  
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0064E6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #0AA8EA;
+}
+  
+.forgot-password {
+    margin-top: 10px;
+    text-align: center;
+}
+  
+.forgot-password a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+  
+/* footer */
+footer {
+  background-color:#000000 ;
+  /* margin-top: 70px; */
+  /* margin-left: 50px; */
+}
+
+/* .f-d-1 {
+   border: 1px solid rgb(250, 22, 52);
+  background-color: white;
+  display: flex;
+  font-size:14px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 5px;
+} */
+
+.fd1-a {
+  margin-right: 10px;
+  /* border-right: 1px solid green; */
+  text-decoration: none;
+  color: black;
+  /* margin-bottom: 15px; */
+}
+
+.f-d-2 {
+  border-bottom: 1px solid rgb(176, 184, 176);
+  color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.f-d-2-mini {
+  background-color: black;
+  color: white;
+  /* border: 1px solid orange; */
+  /* margin-left:70px;
+  margin-right:70px; */
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  overflow: hidden;
+
+}
+.fd2-mini{
+  border-right:1px solid #919caa ;
+  margin-right:20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.fd2-a {
+  font-size:14px;
+  font-weight:500;
+  /* border: 1px solid orange; */
+  text-decoration: none;
+  color: white;
+  margin-right:135px;
+}
+.f-d-3{
+  display: flex;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.fd3{
+  color: white;
+  font-size:14px;
+  font-weight:400;
+  text-decoration: none;
+  margin-right:20px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.f-d-4{
+  /* border: 1px solid aqua; */
+  margin-left: 70px;
+  margin-right: 70px;
+  color: white;
+  font-size: 14px;
+  margin-bottom:10px;
+  padding-bottom: 5px;
+}
