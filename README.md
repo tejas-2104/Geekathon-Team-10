@@ -16,13 +16,15 @@ https://geekathon-team-10.vercel.app/
 6.	Anuja Barge
 
 •	Captain Name
-Tejas Dabhade
+  
+  Tejas Dabhade
 
 •	Mentor
 
   Tejal Mohod
 
 •	Task Assigned
+
 1.	Tejas Dabhade
 Home(https://geekathon-team-10.vercel.app/index.html)
 
