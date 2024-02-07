@@ -217,20 +217,27 @@ navbar {
 
 /*Listen Live */
 
+.listen-live-container{
+    /* background-color: #0064E6; */
+    /* border: 1px solid rgb(233, 34, 8);  */
+    padding: 10px;
+    
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    /* margin-bottom: 10px; */
 
+}
 .listen-live-container {
     /* background-color: #f5982d; */
     /* margin-top:500px; */
-    border: 1px solid purple;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
+    /* border: 1px solid purple; */
     display: flex;
+    justify-content:space-evenly;
+    align-items: center;
 }
 
 .listen-live-cards {
     /* background-color: #0064E6; */
-    z-index: -1;
     position: relative;
     display: flex;
 }
@@ -245,6 +252,35 @@ navbar {
     height: 180px;
     width: 180px;
 }
+
+.playIcon1 {
+    /* text-align: center; */
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 25px;
+    display: none;
+}
+
+.listen-live-a:hover .playIcon1 {
+    height:30px;
+    margin-top:75px;
+    margin-left:75px;
+    position: relative;
+    display: block;
+}
+
+.listen-live-a:hover  .round{
+
+    color: purple;
+    opacity: 0.8;
+    color: white;
+    position: absolute;
+    background-color: rgb(8, 0, 0);
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
 
 .listen-live-img1:hover {
     background-image: linear-gradient(rgb(235, 252, 4), rgb(230, 15, 15));
@@ -286,6 +322,10 @@ navbar {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 700;
+}
+.radio-text:hover{
+    color: #f5982d;
+    text-decoration: underline;
 }
 
 .sub-text {
