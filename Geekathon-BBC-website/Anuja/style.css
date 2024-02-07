@@ -282,6 +282,27 @@ header {
   align-items: center;
   padding-top: 10px;
 }
+/*-----------Advertisment2------------------*/
+.advertisment2{
+  background-color: #e2e0e0c4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.add-title {
+  font-weight: bold;
+  margin-left: auto;
+  font-size: smaller;
+  color: #505050 !important;
+  font: bold 0.75rem/0.75rem helvetica,arial,sans-serif;
+  font-size: .75rem;
+  letter-spacing: 0 !important;
+  margin-bottom: 5px !important;
+  margin-top: 8px !important;
+  padding-top: 0;
+ 
+  text-transform: uppercase;
+  text-align:center;
+}
 
 
 
