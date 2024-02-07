@@ -105,8 +105,8 @@ section h2:hover{
     font-size: x-large;
 }
 .top-news-items{
-    height:348px;
-    padding: 1rem 0 ;
+    height:100%;
+    /* padding: 1rem 0 ; */
     color: white;
     display: grid;
     grid-template-areas: 
@@ -122,6 +122,7 @@ section h2:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .top-news-item-image-2{
     grid-area: top-news-item-image-2;
@@ -129,6 +130,7 @@ section h2:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .top-news-item-image-3{
     grid-area: top-news-item-image-3;
@@ -136,6 +138,7 @@ section h2:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .top-news-item-image-4{
     grid-area: top-news-item-image-4;
@@ -143,6 +146,7 @@ section h2:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .top-news-item-image-5{
     grid-area: top-news-item-image-5;
@@ -150,6 +154,7 @@ section h2:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
 .top-news-item-images{
     display: flex;
@@ -179,7 +184,7 @@ section h2:hover{
     width: 80%;
     margin: 0 auto;
 }
-.weather-container-items,.earth-container-images,.reel-container-images,.matb-container-content-sec,.matb-aside-content  li {
+.earth-container-images,.reel-container-images,.matb-container-content-sec,.matb-aside-content  li {
     display: flex;
     /* justify-content: space-evenly; */
     gap: 1rem;
@@ -256,9 +261,19 @@ section h2:hover{
 .weather-container{
     margin: 3rem auto;
 }
+.weather-container-items{
+    display: flex;
+
+}
 .weather-container-items-content{
     display: flex;
-    margin: 2rem ;
+    overflow: hidden;
+    margin: 0 1rem;
+}
+.weather-container >div:first-of-type{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 .weather-container-items-content a{
     margin-right: 1rem;
@@ -272,14 +287,27 @@ section h2:hover{
 }
 
 .earth-image-items img{
-    height: 14rem;
-    width: 25rem;
+    max-height: 14rem;
+    max-width: 25rem;
 }
+
 .earth-conatiner-content-1{
     display: flex;
     justify-content: space-between;
     color: white;
     margin: 1rem 0;
+}
+.earth-container-images > div{
+    overflow: hidden;
+    flex: 1;
+    width: 100%;
+}
+.earth-container-images div >a{
+    display: flex;
+    flex-direction: column;
+    /* max-width: 100%;
+    max-height: 100%; */
+    
 }
 .earth-conatiner-heading button{
     background-color: transparent;
@@ -387,10 +415,10 @@ section h2:hover{
     color: #fff3ff;
     font-weight: 600;
 }
-.editorpicks-main-section-img-1 p:last-of-type,.matb-main-container-img-1 p:last-of-type{
+.editorpicks-main-section-img-1 p:last-of-type,.matb-main-container-img-1 p:last-of-type,.wip-container-content-1-img p:last-of-type{
     color: #C1C1C1;
 }
-.editorpicks-main-section-img-1 p:last-of-type:hover,.matb-main-container-img-1 p:last-of-type:hover{
+.editorpicks-main-section-img-1 p:last-of-type:hover,.matb-main-container-img-1 p:last-of-type:hover,.wip-container-content-1-img p:last-of-type:hover{
     text-decoration: underline;
 }
 .editorpicks-cards,.matb-cards{
@@ -433,6 +461,22 @@ section h2:hover{
 }
 .editorpicks-card-1,.editorpicks-card-2,.editorpicks-card-3,.editorpicks-card-4,.editorpicks-card-5,.editorpicks-card-6{
     padding: 1rem;
+    justify-content: space-between;
+}
+.editorpicks-card-1 p,.editorpicks-card-2 p,.editorpicks-card-3 p,.editorpicks-card-4 p,.editorpicks-card-5 p,.editorpicks-card-6 p{
+    margin-top:0.5rem;
+    color: #8A8A8A;
+    cursor: pointer;
+    
+}
+.editorpicks-card-1 span,.editorpicks-card-2 span,.editorpicks-card-3 span,.editorpicks-card-4 span,.editorpicks-card-5 span,.editorpicks-card-6 span{
+    color: #C1C1C1;
+    margin: 0.5rem 0;
+}
+.editorpicks-card-1 span:hover,.editorpicks-card-2 span:hover,.editorpicks-card-3 span:hover,.editorpicks-card-4 span:hover,.editorpicks-card-5 span:hover,.editorpicks-card-6 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
 .card img{
     width: 100%;
@@ -569,6 +613,12 @@ section h2:hover{
     margin: 0.5rem 0;
     padding: 0.5rem;
 }
+.tob-container-content-2-items p{
+    color: #8A8A8A;
+}
+.tob-container-content-2-items p:hover{
+    text-decoration: underline;
+}
 .tob-container-content-2-center{
     background-color: #E4EDF7;
     color: #E4EDF7;
@@ -581,7 +631,11 @@ section h2:hover{
     height: 100%;
     padding: 1rem;
     background-color: red;
+    cursor: pointer;
 
+}
+.tob-container-content-3-p-1:hover{
+    text-decoration: underline;
 }
 
 /* matb sec */
@@ -613,12 +667,27 @@ section h2:hover{
     justify-content: flex-end;
     flex-direction: column;
     color: white;
+    cursor: pointer;
 }
 .matb-container-content h2{
     margin: 1rem 0;
+    
+}
+.matb-cards div > p{
+    color: #C1C1C1;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.matb-cards div > p:hover{
+    text-decoration: underline;
+}
+.matb-cards div > h3{
+    cursor: pointer;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
 }
 .matb-aside{
-    background-color: red;
+    /* background-color: red; */
     color: white;
 }
 .matb-aside-content{
@@ -627,14 +696,28 @@ section h2:hover{
 .matb-aside-content li:nth-child(even) {
     background-color: #363636; /* Set background color for even-numbered li elements */
     padding: 2rem 1rem;
+    color: #C1C1C1;
+    cursor: pointer;
 }
 .matb-aside-content li:nth-child(odd) {
     background-color: #2F2F2F; /* Set background color for even-numbered li elements */
     padding: 1.2rem 1rem;
+    color: #C1C1C1;
+    cursor: pointer;
 }
 .matb-aside-content li:first-child {
     background-color: initial; /* Set background color back to default or override with another style */
     padding: 1rem;
+    color: white;
+    background-color: red;
+}
+.matb-aside-content li > div > span{
+    font-style: italic;
+    color: #8c8c8c;
+}
+.matb-aside-content li > div > span:hover{
+    text-decoration: underline;
+
 }
 
 /* newsletters sec */
@@ -662,9 +745,17 @@ section h2:hover{
 }
 .newsletters-container-content-img p{
     margin: 0.5rem;
+    cursor: pointer;
+    
 }
 .newsletters-container-content-img p:first-of-type{
     font-weight: bold;
+}
+.newsletters-container-content-img p:last-of-type{
+    color: #C1C1C1;
+}
+.newsletters-container-content-img p:last-of-type:hover{
+    text-decoration: underline;
 }
 /* world in pic sec */
 .wip-container{
@@ -698,6 +789,7 @@ section h2:hover{
 }
 .wip-container-content-1-img p{
     margin:0.5rem;
+    cursor: pointer;
 }
 .wip-container-content-2 img{
     max-width: 100%;
@@ -705,6 +797,14 @@ section h2:hover{
 }
 .wip-container-content-2-img-sec1 p:first-of-type{
     font-weight: bold;
+}
+.wip-container-content-2-img-sec1 p:last-of-type{
+    color: #C1C1C1;
+
+}
+.wip-container-content-2-img-sec1 p:last-of-type:hover{
+    text-decoration: underline;
+    
 }
 .wip-container-content-2-img-sec1 p{
     margin: 0.5rem;
@@ -786,6 +886,7 @@ footer {
     margin-top: 25px;
     margin-bottom: 10px;
     display: flex;
+    overflow: hidden;
 
 }
 .fd2-mini{
