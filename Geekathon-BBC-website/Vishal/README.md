@@ -50,6 +50,6 @@ we learn  bacis HTHL,HTML5,CSS,TAILWIND and we are facing difficulties in respon
 also we are learn how to work in team or and working on team come more problems and solve to used help us. 
 
 ![Logo](https://th.bing.com/th/id/OIP.d49GMsGxhzsTSWfFD5AyAAHaCH?rs=1&pid=ImgDetMain)
-![Navbar](https://github.com/tejas-2104/Geekathon-Team-10/assets/86584324/e952e32b-850f-45bc-a6bf-99046b8459b9)
+
 
 
