@@ -339,7 +339,7 @@ hr{
    text-align: center;
    margin-left: 800px;
    color: #6c6c6c;
-   font-size: 11px;
+   font-size: 12px;
    margin-bottom: -20px;
   
   
@@ -353,6 +353,7 @@ h4{
     letter-spacing: 3px;
     color: #3f3b3c;
 }
+
 
 
 .finance-container{
@@ -492,10 +493,10 @@ h4{
     display: flex;
 }
 .tokoyo-wrap h3{
-    margin-left: 160px;
-    padding: 10px 0px;
+    margin-left: 190px;
+    padding: 4px 0px;
     color: #4e4e4e;
-    font-size: 15px;
+    font-size: 12px;
 }
 .tokoyo-wrap{
     display: flex;
