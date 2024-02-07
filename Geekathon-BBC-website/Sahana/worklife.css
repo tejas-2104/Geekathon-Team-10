@@ -8,7 +8,55 @@ html,body{
     width: 100%;
     height: 100%;
 }
+.nav-bar-main{
+    background-color: black;
+}
 .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+}
+.navbar-left-items{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 4rem;
+}
+.navbar-item-logo img{
+    max-width:7rem ;
+    max-height:6rem ;
+}
+.navbar-left-sigin , .navbar-right-items{
+    display: flex;
+    align-items: center;
+    margin: 0 0.25rem;
+   
+}
+.navbar-center-items{
+    display: flex;
+    gap: 2.5rem;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-right-items{
+    width: 16rem;
+    display: flex;
+    align-content: center;
+    background-color: #221f20;
+    padding: 0.5rem  0.75rem;
+}
+.navbar-right-items:hover{
+    background-color: #3f3b3c;
+}
+.navbar-1{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -18,6 +66,7 @@ html,body{
    z-index: 100;
    align-items: center;
    height: 60px;
+   background-color: #ffffff;
 }
 .nav-logo h1{
    background-color: #0052A1;
@@ -92,13 +141,13 @@ html,body{
 .container-1{
     display: flex;
     height: 50vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .upper-container-item{
     width: 50%;
     height: 50vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url('https://ychef.files.bbci.co.uk/1600x900/p0h8g8hn.webp');
     background-size:cover;
     cursor: pointer;
@@ -133,7 +182,7 @@ html,body{
     display: flex;
     gap: 1rem;
     height: 60vh;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     margin-top: 10px;
     
 }
@@ -142,7 +191,7 @@ html,body{
     height: 60vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .content-img-1{
     width: 100%;
@@ -269,13 +318,13 @@ html,body{
 .finance-container-1{
     display: flex;
     height: 50vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .finance-container-item{
     width: 50%;
     height: 50vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url('https://ychef.files.bbci.co.uk/1600x900/p0ggnd82.webp');
     background-size:cover;
     cursor: pointer;
@@ -309,7 +358,7 @@ html,body{
     display: flex;
     gap: 1rem;
     height: 60vh;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     margin-top: 10px;
     
 }
@@ -318,7 +367,7 @@ html,body{
     height: 60vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .finance-img-1{
     width: 100%;
@@ -352,6 +401,7 @@ html,body{
     font-style: italic;
     color: #4A4A4A;
     font-size: 20px;
+    align-content: center;
 }
 .finance-img-2{
     width: 100%;
@@ -393,15 +443,16 @@ html,body{
     height: 75vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: rgb(249,249,249);
+    margin-bottom: 30px;
 }
 .most-popular-items{
     display: flex;
     width: 100%;
     gap: 1rem;
     height: 82%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
 
@@ -416,7 +467,7 @@ html,body{
 .most-popular-item{
     width: 20%;
     height: 90%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .item-1{
     height: 33%;
@@ -426,8 +477,6 @@ html,body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
-
 }
 
 .num{
@@ -436,7 +485,6 @@ html,body{
     font-size: 40px;
     font-weight: 800;
     color: #CBCBCB ;
-
 }
 
 .item-1-text{
@@ -457,9 +505,177 @@ html,body{
 .item-1-text p{
    font-size: 18px;
    color: #2E2E2ECC;
+}
+/* most popular ended */
+.family-tree{
+    width: 100%;
+    height: auto;
+    border: 3px solid blue;
+    /* background-image: url('https://ychef.files.bbci.co.uk/976x549/p0bmxbfq.jpg'); */
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display: block;
+    background-size: cover;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgba(14, 14, 14, 0) 0%, rgb(14, 14, 14) 100%), linear-gradient(270deg, rgba(14, 14, 14, 0) 0%, rgb(14, 14, 14) 100%),url('https://ychef.files.bbci.co.uk/976x549/p0bmxbfq.jpg');
+}
+.family-tree h4{
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.family-container{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 20px;
+
+}
+.family-container-item hr{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
+.family-container-item{
+    height: 60vh;
+    /* width: 18%; */
+    border: 1px solid green;
+}
+.family-img-1 {
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+    gap:3rem;
+}
+.family-img-1 img{
+    height: 250px;
+    width:  300px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.family-img-1 img:hover{
+    transition: all .4s ease;
+    transform: scale(1.2);
+}
+.family-tree h4{
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.family-container-item h4{
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: -140px;
+    line-height: -30px;
+   
+
+}
+.family-container-item p{
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+}
+.fam-italic{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 16px;
+}
+/*family tree ended */
+/* footer */
+footer {
+    background-color:#4C4C4C ;
+    margin-top: 70px;
+    /* margin-left: 50px; */
+}
+
+/* .f-d-1 {
+     border: 1px solid rgb(250, 22, 52);
+    background-color: white;
+    display: flex;
+    font-size:14px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */
+
+.fd1-a {
+    margin-right: 10px;
+    /* border-right: 1px solid green; */
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.f-d-2 {
+    border-bottom: 1px solid rgb(176, 184, 176);
+    color: white;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.f-d-2-mini {
+    background-color: #4C4C4C;
+    color: white;
+    /* border: 1px solid orange; */
+    /* margin-left:70px;
+    margin-right:70px; */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.fd2-mini{
+    border-right:1px solid #919caa ;
+    margin-right:20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.fd2-a {
+    font-size:14px;
+    font-weight:500;
+    /* border: 1px solid orange; */
+    text-decoration: none;
+    color: white;
+    margin-right:135px;
+}
+.f-d-3{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.fd3{
+    color: white;
+    font-size:14px;
+    font-weight:400;
+    text-decoration: none;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.f-d-4{
+    /* border: 1px solid aqua; */
+    margin-left: 70px;
+    margin-right: 70px;
+    color: white;
+    font-size: 14px;
+    margin-bottom:10px;
+    padding-bottom: 5px;
+}
+
+
+
+       
+    
+    
 
 
 
