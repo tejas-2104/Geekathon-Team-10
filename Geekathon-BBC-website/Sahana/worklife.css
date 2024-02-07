@@ -138,6 +138,31 @@ html,body{
     gap: 1rem;
     margin-left: 6rem;
 }
+.adv{
+    display: flex;
+}
+.img-warp h4{
+    margin-left: 180px;
+    padding: 10px 0px;
+    color: #4e4e4e;
+    font-size: 12px;
+    
+}
+hr{
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+    
+    
+}
+.img-warp{
+    border-left: 1px solid #949494;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+}
 .container-1{
     display: flex;
     height: 50vh;
@@ -171,7 +196,7 @@ html,body{
 .upper-container-text{
     z-index: 1;
     position: absolute;
-    margin-left:500px;
+    margin-left:400px;
     margin-top:80px;
     background-color: white;
     padding: 20px 20px;
@@ -214,18 +239,19 @@ html,body{
 .text h5{
    font-size: 16px;
    color:#4A4A4A ;
-   line-height: 1.5rem;
+   line-height: 1rem;
 }
 .text p{
     font-size: 20px;
     line-height: 1.5rem;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     color: #2E2E2ED9;
 }
 .italic{
     font-style: italic;
     color: #4A4A4A;
     font-size: 20px;
+    padding: 10px 10px;
 }
 .content-img-2{
     width: 100%;
@@ -300,15 +326,37 @@ html,body{
     font-size: 20px;
 }
 /*how live */ 
-.finance  h4{
-    text-align: center;
-    font-size: 15px;
-    display: block;
-    color: #2E2E2ED9;
-    letter-spacing: 3px;
-    margin-bottom: 50px;
+/*advertsiment*/
+.adv-1{
+    height: 50vh;
+    width: 100%;
+    background-color: #f1f1f1;
 }
+.adv-1-wrap img{
+    padding: 5px 180px;
+}
+.adv-1-wrap h4{
+   text-align: center;
+   margin-left: 800px;
+   color: #6c6c6c;
+   font-size: 11px;
+   margin-bottom: -20px;
+  
+  
+}
+.finance-ad{
+    margin-top: 30PX;
+}
+h4{
+    text-align: center;
+    padding: 20px 30px;
+    letter-spacing: 3px;
+    color: #3f3b3c;
+}
+
+
 .finance-container{
+  
     height: 120vh;
     width: 80%;
     display: flex;
@@ -351,7 +399,7 @@ html,body{
 .finance-container-text{
     z-index: 1;
     position: absolute;
-    margin-left:500px;
+    margin-left:300px;
     margin-top: 85px;
     background-color: white; 
 }
@@ -439,6 +487,23 @@ html,body{
 .finance-img-3 img:hover{
     transform: scale(1.2);
     transition: all 0.365s ease-in-out;
+}
+.finance-ad{
+    display: flex;
+}
+.tokoyo-wrap h3{
+    margin-left: 160px;
+    padding: 10px 0px;
+    color: #4e4e4e;
+    font-size: 15px;
+}
+.tokoyo-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid #949494;
+    padding: 0px 10px;
+
 }
 /*finance-ended*/
 .most-popular{
