@@ -782,30 +782,33 @@ html,body{
 /* completed till equality */
 .work-around{
     width: 100%;
-    height: 70vh;
-    /* background-color: #3f3b3c; */
+    height: 60vh;
     margin-bottom: -70px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(https://ychef.files.bbci.co.uk/976x549/p06dkks1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #949494;
 }
 .work-around-container{
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column;  */
-    justify-content: space-around;
-    /* padding: 40px 35px; */
+     display: flex;
+    /* justify-content: center; */
+    align-items: center;
     width: 100%;
-    gap: 2rem;
+     gap: 2rem;
+     justify-content: center;
 }
 .work-around-item{
-     height: 30vh;
+    /* height: 40vh; */
     width: 20%;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
+    /* display: flex; */
 }
 .bbc-work-img{
     width: 100%;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     overflow: hidden;
     gap:3rem;
 }
@@ -819,23 +822,28 @@ html,body{
     transition: all .4s ease;
     transform: scale(1.2);
 }
+.work-around h4{
+    /* justify-content: center; */
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2.92px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.work-around-item h3{
+    color: #ffffff;
+    margin-top: 5px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.work-around-item p{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 2rem;
+}
 /* footer */
 footer{
     background-color:#4C4C4C ;
