@@ -348,15 +348,50 @@ body{
     width: 100%;
     height: auto;
 }
-
+.editorpicks-aside{
+    height: 100%;
+    background-color: red;
+}
 .editorpicks-aside ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30%;
-    align-items: center;
     list-style-type: none;
     background-color: red;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+.editorpicks-aside li{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    color: #C1C1C1;
+    
+}
+.editorpicks-aside li:hover{
+    cursor: pointer;
+    color: white;
+
+}
+.editorpicks-aside li>div{
+    margin: 0 1rem;
+    background-color: red;
+    border-radius: 100%;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+.editorpicks-aside li:nth-child(even) {
+    background-color: #363636; /* Set background color for even-numbered li elements */
+    padding: 3rem 1rem;
+}
+.editorpicks-aside li:nth-child(odd) {
+    background-color: #2F2F2F; /* Set background color for even-numbered li elements */
+    padding: 2rem 1rem;
+}
+.editorpicks-aside li:first-child {
+    background-color: initial; /* Set background color back to default or override with another style */
+    padding: 1rem;
 }
 
 
@@ -480,51 +515,144 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 29rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+}
+.matb-container-content h2{
+    margin: 1rem 0;
+}
+.matb-aside{
+    background-color: red;
+    color: white;
+}
+.matb-aside-content{
+    margin-top: 1rem 0;
+}
+.matb-aside-content li:nth-child(even) {
+    background-color: #363636; /* Set background color for even-numbered li elements */
+    padding: 2rem 1rem;
+}
+.matb-aside-content li:nth-child(odd) {
+    background-color: #2F2F2F; /* Set background color for even-numbered li elements */
+    padding: 1.2rem 1rem;
+}
+.matb-aside-content li:first-child {
+    background-color: initial; /* Set background color back to default or override with another style */
+    padding: 1rem;
 }
 
 /* newsletters sec */
+.newsletters-container{
+    margin: 1rem auto;
+}
 .newsletters-container-heading{
     display: flex;
     justify-content: space-between;
+    margin: 1rem 0;
 }
 .newsletters-container-content{
     display: flex;
     justify-content: space-between;
+    
     gap: 1rem;
     height: 15rem;
+    color:white ;
 }
 .newsletters-container-content-img{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     flex: 1;
 }
+.newsletters-container-content-img p{
+    margin: 0.5rem;
+}
+.newsletters-container-content-img p:first-of-type{
+    font-weight: bold;
+}
 /* world in pic sec */
+.wip-container{
+    background-color: #F6F6F6;
+    padding: 1rem;
+}
+.wip-container-content{
+    margin: 1rem auto;
+}
+.wip-container-content h2{
+    padding-top: 1rem;
+}
 .wip-container-content-1,.wip-container-content-2{
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-
+    /* padding: 1rem; */
 }
 .wip-container-content-1-img{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     flex: 1;
+    color: white;
     height: 22rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.wip-container-content-1-img p:first-of-type{
+    font-weight: bold;
+}
+.wip-container-content-1-img p{
+    margin:0.5rem;
 }
 .wip-container-content-2 img{
     max-width: 100%;
+    margin-bottom: 1rem;
+}
+.wip-container-content-2-img-sec1 p:first-of-type{
+    font-weight: bold;
+}
+.wip-container-content-2-img-sec1 p{
+    margin: 0.5rem;
+    /* padding: 0.5rem 0; */
 }
 /* bbc in other langs */
+.biol-container{
+    background-color: #F2F2F2;
+}
+
 .biol-container-content-1{
     display: flex;
     /* justify-content: space-between; */
     gap: 2rem;
 }
+.more-languages h3{
+    margin: 1rem 0;
+}
 .more-langs-content{
     display: flex;
     gap: 2rem;
 }
+.more-langs-content-ul ul{
+    list-style-type: none;
+}
+.more-langs-content-ul a{
+    text-decoration: none;
+    color: black;
+}
 
+.more-langs-content-ul li{
+    padding: 0.25rem;
+}
+.more-langs-content-ul li:hover,.biol-container-content h2:hover , .biol-container-content-1 h3:hover ,.biol-container-content-1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
-
-
+/* extra styling  */
+.section h2{
+    color: #4C4C4C;
+}
 /* footer */
 footer {
     background-color:#4C4C4C ;
