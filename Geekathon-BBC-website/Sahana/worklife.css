@@ -648,7 +648,7 @@ h4{
     font-size: 20px;
     align-items: center;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -45px;
 }
 .fam-italic{
     color: #ffffff;
@@ -716,10 +716,11 @@ h4{
 }
 .work-container-item hr{
     width: 30%;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-
+     margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+
 .work-container .work-container-item h4{
     color: #ffffff;
     margin-left: -100px;
@@ -733,7 +734,8 @@ h4{
     font-size: 20px;
     align-items: center;
     justify-content: center;
-    margin-top: -20px; 
+     margin-top: -45px;
+
 }
 .work-in-progress h4{
     margin-bottom: 30px;
@@ -809,7 +811,7 @@ h4{
     font-size: 20px;
     align-items: center;
     justify-content: center;
-    margin-top: -20px; 
+    margin-top: -45px; 
 
 }
 .eqa-italic{
@@ -820,8 +822,8 @@ h4{
 }
 .eqality-container hr{
     width: 30%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 .button{
