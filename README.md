@@ -16,6 +16,7 @@ Step into the world of BBC-inspired design with our newly crafted website. Drawi
 - Vishal Gaikwad
 - Sahana S
 - Anuja Barge
+- Pratik Dayma
 
 ### Captain Name
 
