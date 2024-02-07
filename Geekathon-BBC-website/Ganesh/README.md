@@ -28,9 +28,6 @@ In developing the Sound Page section, I utilized HTML tags alongside CSS styles.
 - **Responsive Design:** Employed CSS Media Queries to create a responsive design that adapts to different screen sizes, ensuring optimal viewing experience across devices.
 - **Hover Effects:** Added CSS hover effects to enhance interactivity, such as changing the color or scale of elements when hovered over by the user.
 
-By leveraging these HTML tags and CSS styles effectively, I was able to craft a visually appealing and functional Home Page section that closely mirrors the design and functionality of the original BBC website.
-
-
 ## Acknowledgment
 
 We're grateful to Geekster for hosting the Geekathon and giving us the chance to showcase our skills. A big thank you to our mentor, Tejal Mohod, for her invaluable guidance and support during the project.
