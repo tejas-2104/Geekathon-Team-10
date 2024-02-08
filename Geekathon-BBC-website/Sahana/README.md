@@ -40,7 +40,7 @@ By skillfully utilizing a combination of HTML tags and CSS styles, I successfull
 ## Acknowledgement
 We express our heartfelt appreciation to Geekster for organizing the Geekathon event, offering us a platform to exhibit our talents. A special shoutout goes to our mentor, Tejal Mohod, whose unwavering guidance and support were instrumental throughout the project's journey.
 
-Take a moment to delve into our website and immerse yourself in the intricately designed Home Page section!
+Take a moment to delve into our website and immerse yourself in the intricately designed Worklife Page section!
 
 
 
