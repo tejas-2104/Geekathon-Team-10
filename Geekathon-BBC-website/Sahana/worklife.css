@@ -871,6 +871,7 @@ h4{
     width: 20%;
     /* border: 1px solid purple; */
     /* display: flex; */
+    margin-top: -40px;
 }
 .bbc-work-img{
     width: 100%;
@@ -891,10 +892,10 @@ h4{
 .work-around h4{
     /* justify-content: center; */
     text-align: center; 
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 2.92px;
     line-height: 19px;
@@ -902,13 +903,15 @@ h4{
 }
 .work-around-item h3{
     color: #ffffff;
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    font-size: 15px;
+    padding: 5px 0px;
 
 }
 .work-around-item p{
     color: #ffffff;
-    font-size: 20px;
-    line-height: 2rem;
+    font-size: 18px;
+    /* line-height: 2rem; */
 }
 /* footer */
 footer{
