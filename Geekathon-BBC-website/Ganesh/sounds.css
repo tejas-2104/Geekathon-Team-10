@@ -277,8 +277,10 @@ navbar {
     position: absolute;
     background-color: rgb(8, 0, 0);
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 170px;
+    width: 170px;
 }
 
 
