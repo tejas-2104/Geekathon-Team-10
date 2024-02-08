@@ -28,7 +28,7 @@ Tejal Mohod
 
 ### Task Assigned
 
-- Tejas Dabhade: [Home](https://geekathon-team-10.vercel.app/index.html)
+- Tejas Dabhade: [Home](https://geekathon-team-10.vercel.app/index.html) , [Sigin](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Tejas/dist/signin.html) ,[Search](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Tejas/dist/search.html)
 - Ganesh Kusumbe: [Sounds](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Ganesh/sounds.html)
 - Julekha Shaikh: [News](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Julekha/dist/NewsPage.html)
 - Vishal Gaikwad: [Sports](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Vishal/sport.html)
