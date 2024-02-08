@@ -34,7 +34,7 @@ Tejal Mohod
 - Vishal Gaikwad: [Sports](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Vishal/sport.html)
 - Sahana S: [Worklife](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Sahana/worklife.html)
 - Anuja Barge: [Earth](https://geekathon-team-10.vercel.app/Geekathon-BBC-website/Anuja/earth.html)
-- Pratik Dayma: [travel](http://127.0.0.1:5500/Geekathon-BBC-website/Pratik/dist/travel.html),[culture](http://127.0.0.1:5500/Geekathon-BBC-website/Pratik/dist/culture.html)
+- Pratik Dayma: [Travel](http://geekathon-team-10.vercel.app/Geekathon-BBC-website/Pratik/dist/travel.html),[Culture](http://geekathon-team-10.vercel.app/Geekathon-BBC-website/Pratik/dist/culture.html)
 
 ## OBJECTIVES
 
