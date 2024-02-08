@@ -94,35 +94,54 @@
   font-size: 1rem;
   font-weight: 600;
 }
-/* #drop_down{
-    position: absolute;
-    top: 5rem;
-   
-    background-color: black;
-    box-shadow: 0 0 10px gray;
-    width: 100%;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column; */
-/* gap: 1rem;
+/*                    MEGA DROP DOWN MENU                   */
+.mega-drop{
+  position: fixed;
+  top: 10rem;
+  left: 0;
+  transform: translateX(-100%);
+  width: 5rem;
+ visibility: hidden;
 opacity: 0;
-visibility: hidden;
-transition: 0.4s opacity ease-in-out;
+  transition: all 0.3s linear;
+  background-color: #000000;
+ 
 }
-.Soprt_nav .main_ul li:hover #drop_down{
-    opacity: 1;
-    visibility: visible;
+.main_ul li:hover .mega-drop{
+  visibility: visible;
+  opacity: 1;
+  top: 9rem;
 }
-.drop_down li a{
-    color: white;
-    padding: 0.75rem;
-    transition: all 0.4s ease-in-out;
-}
-.drop_down li a:hover{
-    color:white;
-    background:yellow;
-} */
 
+
+.mega-child-drop{
+  padding: 1rem;
+  border-right: 0.050rem solid darkgray;
+}
+.mega-child-drop p{
+  margin-bottom: 1rem;
+}
+.mega-grid .mega-link{
+ display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.50rem;
+} 
+.mega-grid{
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  
+}
+
+
+
+
+
+
+
+/*                            END                       */
 nav {
   display: flex;
   justify-content: space-between;
@@ -171,12 +190,55 @@ hr {
   color: black;
   text-align: center;
   border-bottom: 3px solid transparent;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.50rem;
 }
 .main_ul li a:hover {
   border-bottom: 3px solid rgb(0, 0, 0);
-  border-bottom-width: 0.2rem;
+  text-underline-offset: 20px;
+
 }
+/*                  MAIN NAV BORDER UNDERLINE ADD               */
+.Soprt_nav nav ul {
+    list-style-type: none;
+    background-color: #ffd230;
+    overflow: hidden;
+  }
+  
+  .main_ul li a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 0.50rem;
+  }
+  .main_ul li a:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    text-underline-offset: 20px;
+  
+  }
+
+
+  .nav-list li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    top: 1;
+    background-color: var(--white);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .nav-list li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+/*                   END                */
 .hamb {
   border-left: 2px solid;
 }

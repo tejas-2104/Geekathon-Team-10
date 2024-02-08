@@ -1,35 +1,36 @@
-*{
+/* Default styles */
+* {
     margin: 0;
-    padding:0 ;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-section h2{
+section h2 {
     color: #4a4a4a;
     cursor: pointer;
 }
-section h2:hover{
+section h2:hover {
     color: #221f20;
     cursor: pointer;
 }
 /* header-nav */
-.header{
+.header {
     width: 100%;
     background-color: black;
-
 }
-.navbar{
-    display:flex;
+.navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
+    height: auto;
 }
-.navbar-left-items{
+.navbar-left-items {
     display: flex;
     align-items: center;
     margin-right: 1rem;
@@ -37,43 +38,90 @@ section h2:hover{
     height: 4rem;
     flex-shrink: 1;
 }
-.navbar-item-logo img{
-    max-width:7rem ;
-    max-height:6rem ;
+.navbar-item-logo img {
+    max-width: 7rem;
+    max-height: 6rem;
 }
 .navbar-left-sigin {
     display: flex;
     align-items: center;
     margin: 0 0.25rem;
-   
 }
-.navbar-center-items{
+.navbar-center-items {
     display: flex;
     align-items: center;
     gap: 2.5rem;
-    flex-shrink: 1; 
-    
+    flex-shrink: 1;
 }
-.navbar a{
+.navbar a {
     text-decoration: none;
     color: white;
 }
-.navbar-right-items{
+.navbar-right-items {
     width: 20%;
     display: flex;
-    /* align-items: center; */
     background-color: #221f20;
-    padding: 0.5rem  0.75rem;
-    flex-shrink: 1; 
+    padding: 0.5rem 0.75rem;
+    flex-shrink: 1;
 }
-.navbar-right-items:hover{
-    background-color: #3f3b3c;
+.nav-right-svg,
+.navbar-right-items a {
+    display: flex;
+    align-items: center;
+    color: white;
 }
-.nav-right-svg,.navbar-right-items a {
-    display: flex; /* Ensure SVG and anchor are displayed as flex items */
-    align-items: center; /* Align content vertically */
-    color: white; /* Set color for both SVG and anchor */
-    
+
+/* Media Queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+        align-items: center;
+        width: 100%;
+    }
+    .navbar-left-items,
+    .navbar-right-items {
+        /* width: 100%; */
+        margin: 0;
+        text-align: center; /* Center-align text */
+    }
+    .navbar-right-items{
+        background-color: black;
+    }
+    .navbar-right-items a{
+        display: none;
+        
+    }
+    .navbar-item-logo img {
+        max-width: 5rem; /* Adjust the max-width of the logo */
+        max-height: 4rem; /* Adjust the max-height of the logo */
+    }
+    .navbar-center-items a{
+        display: none;
+    }
+    .navbar-left-sigin a {
+        font-size: 0.8rem; /* Adjust font-size for sign-in text */
+    }
+    .navbar-right-items {
+        gap: 0.5rem; /* Add some gap between icon and text */
+    }
+    .navbar-right-items a {
+        font-size: 0.8rem; /* Adjust font-size for search text */
+    }
+}
+
+/* Media Queries for slightly larger screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .navbar-item-logo img {
+        max-width: 6rem; /* Adjust the max-width of the logo for slightly larger screens */
+        max-height: 5rem; /* Adjust the max-height of the logo for slightly larger screens */
+    }
+    .navbar-left-sigin a {
+        font-size: 1rem; /* Adjust font-size for sign-in text for slightly larger screens */
+    }
+    .navbar-right-items a {
+        font-size: 1rem; /* Adjust font-size for search text for slightly larger screens */
+    }
 }
 
 
@@ -821,6 +869,20 @@ section h2:hover{
     /* justify-content: space-between; */
     gap: 2rem;
 }
+.more-langs-content div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hiddden;
+    max-width: 100%;
+}
+.more-languages div{
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    overflow: hiddden;
+    max-width: 100%;
+}
 .more-languages h3{
     margin: 1rem 0;
 }
@@ -909,6 +971,7 @@ footer {
     display: flex;
     margin-left: 70px;
     margin-right: 70px;
+    overflow: hidden;
 }
 .fd3{
     color: white;
