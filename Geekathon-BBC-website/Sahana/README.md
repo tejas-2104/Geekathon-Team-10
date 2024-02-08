@@ -13,17 +13,17 @@ For the creation of the Worklife Page section, a blend of HTML tags and CSS styl
 
 ## HTML Tags Used:
 
-- &lt section &gt: Employed to divide the content into distinct sections, providing a clear organization.
-- <div>: Used for grouping and styling purposes, allowing for flexible layout structuring.
-- <nav>: Utilized to define navigation menus, facilitating easy access to different sections of the page.
-- <main>: Used to encapsulate the primary content of the page, ensuring a clear hierarchy.
-- <footer>: Incorporated at the bottom of the page to contain footer content such as copyright information and links.
-- <p>: Used to structure paragraphs of text, ensuring readability and logical flow.
-- <h1>, <h2>, <h3>, <h4>, <h5>: Employed to define various levels of headings, contributing to the page's hierarchical structure.
-- <span>: Used for styling specific sections of text, providing finer control over the presentation.
-- <ul>, <li>: Utilized to create unordered lists, presenting content in a structured and easy-to-read format.
-- <a>: Used to create hyperlinks, enabling navigation between different pages or sections within the page.
-- <img>: Inserted to display images, enriching the visual presentation of the page content.
+-  &lt;section&gt; : Employed to divide the content into distinct sections, providing a clear organization.
+-  &lt;div&gt;: Used for grouping and styling purposes, allowing for flexible layout structuring.
+-  &lt;nav&gt;: Utilized to define navigation menus, facilitating easy access to different sections of the page.
+-  &lt;main&gt;: Used to encapsulate the primary content of the page, ensuring a clear hierarchy.
+-  &lt;footer&gt;: Incorporated at the bottom of the page to contain footer content such as copyright information and links.
+-  &lt;p&gt;: Used to structure paragraphs of text, ensuring readability and logical flow.
+-  &lt;h1&gt;,  &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt; &lt;h5&gt;: Employed to define various levels of headings, contributing to the page's hierarchical structure.
+- &lt;span&gt;: Used for styling specific sections of text, providing finer control over the presentation.
+ &lt;ul&gt;, &lt;li&gt;: Utilized to create unordered lists, presenting content in a structured and easy-to-read format.
+- &lt;a&gt;: Used to create hyperlinks, enabling navigation between different pages or sections within the page.
+- &lt;img&gt;: Inserted to display images, enriching the visual presentation of the page content.
 
 ## CSS Properties Used:
 
@@ -40,7 +40,7 @@ By skillfully utilizing a combination of HTML tags and CSS styles, I successfull
 ## Acknowledgement
 We express our heartfelt appreciation to Geekster for organizing the Geekathon event, offering us a platform to exhibit our talents. A special shoutout goes to our mentor, Tejal Mohod, whose unwavering guidance and support were instrumental throughout the project's journey.
 
-Take a moment to delve into our website and immerse yourself in the intricately designed Home Page section!
+Take a moment to delve into our website and immerse yourself in the intricately designed Worklife Page section!
 
 
 
