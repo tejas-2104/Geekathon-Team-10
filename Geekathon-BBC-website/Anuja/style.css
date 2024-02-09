@@ -124,7 +124,7 @@ header {
 }
 
  /* -----------------------------------------------nav bar---------------------------*/ 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .all-links {
     display: none; /* Hide the links on small screens */
     flex-direction: column;
