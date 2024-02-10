@@ -1,28 +1,31 @@
 ## 🚀 About Me
-👋 Hi, I’m Gaikwad Vishal. 👀 I’m interested in Coding. 🌱 I’m currently learning Web Devlopment. 💞️ I’m looking to collaborate on Frontend and Backend Tech
+👋 Hi, I’m Gaikwad Vishal.
+👀 I’m interested in Coding. 
+🌱 I’m currently learning Web Devlopment.
+💞️ I’m looking to collaborate on Frontend and Backend Tech
 
 # project name: BBC 
 
 ## Vishal Gaikwad
 
 My Name is Vishal Gaikwad , I am from fs16 batch , I got a BBC News project ,where we have been assigned with a different task so
-
 I am tasked with creating Sport page for the BBC News UI project
- Semantic Tags used while creating this poject:
 
- header: Represents the header of the document or a section. nav: Defines a container for navigation links. section: Defines a section of the document. footer: Represents the footer of the document or a section. 
+# Semantic Tags used while creating this poject:
+- header: Represents the header of the document or a section. nav: Defines a container for navigation links. section: Defines a section of the document.
+- footer: Represents the footer of the document or a section. 
  
 
 
- Non-Semantic Tags:
+## Non-Semantic Tags:
 
-div: A generic container used for grouping and applying styles to sections of content.
-span: A generic inline container often used for applying styles to a specific portion of text.
-a: Represents hyperlinks.
-img: Embeds images.
-p: Represents a paragraph of text.
-ul, ol, li: Used for creating unordered and ordered lists.
-hr,vl:Used for specific section or content given horizontal and vertical lines.
+- div: A generic container used for grouping and applying styles to sections of content.
+- span: A generic inline container often used for applying styles to a specific portion of text.
+- a: Represents hyperlinks.
+- img: Embeds images.
+- p: Represents a paragraph of text.
+- ul, ol, li: Used for creating unordered and ordered lists.
+- hr,vl:Used for specific section or content given horizontal and vertical lines.
 
 ## Used By
 
@@ -31,9 +34,9 @@ hr,vl:Used for specific section or content given horizontal and vertical lines.
 - FontAwesome: We enriched our user interface by integrating FontAwesome icons, adding a visually appealing and consistent iconography to our project.
 - Google Fonts: To enhance the typography and overall aesthetic, we integrated Google Fonts, ensuring a visually pleasing and readable text across the website.
 
--clippath: we used a some logo added inside the path a social media logo on footer. 
+- clippath: we used a some logo added inside the path a social media logo on footer. 
 
-##OBJECTIVES
+## OBJECTIVES
 
 Implement the "BBC" UI. Link for the website: BBC
 Create a responsive and visually accurate replica of the 12 webpages using HTML, CSS, and Javascript.
